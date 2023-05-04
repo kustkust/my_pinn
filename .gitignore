@@ -1,1 +1,6 @@
 /.vscode
+/__pycache__
+/lib/__pycache__
+lib/__pycache__/layer.cpython-310.pyc
+lib/__pycache__/network.cpython-310.pyc
+lib/__pycache__/pinn.cpython-310.pyc
