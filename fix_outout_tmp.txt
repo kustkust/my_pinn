@@ -1,0 +1,34 @@
+{
+	"name": "TypeError",
+	"message": "'NoneType' object is not callable",
+	"stack": "---------------------------------------------------------------------------
+TypeError                                 Traceback (most recent call last)
+Cell In[13], line 31
+     24 x = [x_train, x_train_left, x_train_right, x_train_start]
+     26 y = {name: np.zeros((n_train_samples, 1)) for name in ["eq1", "eq2", "eq3", "eq4",
+     27                      "cl", "vl", "Fil",
+     28                      "cr", "vr", "Fir",
+     29                      "cs", "vs", "Fis"]}
+---> 31 pinn.fit(x=x, y=y)
+     32 # pinn.save_weights('weights.h5')
+
+File ~\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\keras\utils\traceback_utils.py:70, in filter_traceback.<locals>.error_handler(*args, **kwargs)
+     67     filtered_tb = _process_traceback_frames(e.__traceback__)
+     68     # To get the full stack trace, call:
+     69     # `tf.debugging.disable_traceback_filtering()`
+---> 70     raise e.with_traceback(filtered_tb) from None
+     71 finally:
+     72     del filtered_tb
+
+File ~\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\tensorflow\python\eager\polymorphic_function\polymorphic_function.py:926, in Function._call(self, *args, **kwds)
+    923   self._lock.release()
+    924   # In this case we have created variables on the first call, so we run the
+    925   # defunned version which is guaranteed to never create variables.
+--> 926   return self._no_variable_creation_fn(*args, **kwds)  # pylint: disable=not-callable
+    927 elif self._variable_creation_fn is not None:
+    928   # Release the lock early so that multiple threads can perform the call
+    929   # in parallel.
+    930   self._lock.release()
+
+TypeError: 'NoneType' object is not callable"
+}
