@@ -1,18 +1,74 @@
-{
-	"name": "TypeError",
-	"message": "'NoneType' object is not callable",
-	"stack": "---------------------------------------------------------------------------
-TypeError                                 Traceback (most recent call last)
-Cell In[13], line 31
-     24 x = [x_train, x_train_left, x_train_right, x_train_start]
-     26 y = {name: np.zeros((n_train_samples, 1)) for name in ["eq1", "eq2", "eq3", "eq4",
-     27                      "cl", "vl", "Fil",
-     28                      "cr", "vr", "Fir",
-     29                      "cs", "vs", "Fis"]}
----> 31 pinn.fit(x=x, y=y)
-     32 # pinn.save_weights('weights.h5')
+\u001b\[[\d;]*m
+(File .*\.py:[\d]*,) 
+$1\n\t
 
-File ~\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\keras\utils\traceback_utils.py:70, in filter_traceback.<locals>.error_handler(*args, **kwargs)
+{
+	"name": "ValueError",
+	"message": "Exception encountered when calling layer \"tf.__operators__.add_15\" (type TFOpLambda).
+
+Dimensions must be equal, but are 3 and 2 for '{{node tf.__operators__.add_15/AddV2}} = AddV2[T=DT_FLOAT](tf.__operators__.add_15/AddV2/x, Placeholder)' with input shapes: [3], [?,2].
+
+Call arguments received by layer \"tf.__operators__.add_15\" (type TFOpLambda):
+  • x=tf.Tensor(shape=(3,), dtype=float32)
+  • y=tf.Tensor(shape=(None, 2), dtype=float32)
+  • name=None",
+	"stack": "---------------------------------------------------------------------------
+ValueError                                Traceback (most recent call last)
+Cell In[7], line 10
+      1 params = [
+      2     build_params(1),
+      3     build_params(2),
+      4     build_params(3),
+      5 ]
+      7 networks = [
+      8     Network.build(layers=[100,100,100], activation='softmax', **p) for p in params
+      9 ]
+---> 10 pinns = [PINN(n, **p).build(**p) for n, p in zip(networks, params)]
+     11 for pinn in pinns:
+     12     pinn.compile(optimizer='adam', loss='mse')
+
+Cell In[7], line 10, in <listcomp>(.0)
+      1 params = [
+      2     build_params(1),
+      3     build_params(2),
+      4     build_params(3),
+      5 ]
+      7 networks = [
+      8     Network.build(layers=[100,100,100], activation='softmax', **p) for p in params
+      9 ]
+---> 10 pinns = [PINN(n, **p).build(**p) for n, p in zip(networks, params)]
+     11 for pinn in pinns:
+     12     pinn.compile(optimizer='adam', loss='mse')
+
+File c:\Users\kust\Diplom\my_pinn\lib\pinn.py:32,
+	in PINN.build(self, nu, z, l, kT, ro, e, p_grd, Fi_left, Fi_right, c_left, c_right, c_start, v_left, v_right, v_start, **kwargs)
+     30 outputs.append(c_t + j_div)
+     31 outputs.append(Fi_lap + 4*pi*l*kT*(z*c))
+---> 32 outputs.append(p_grd + (kT*c_grd + z*e*c*Fi_grd))
+     33 # eq_4 = v_div
+     35 c_l, Fi_l = self.network(inputs[1])
+
+File ~\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\tensorflow\python\util\traceback_utils.py:153,
+	in filter_traceback.<locals>.error_handler(*args, **kwargs)
+    151 except Exception as e:
+    152   filtered_tb = _process_traceback_frames(e.__traceback__)
+--> 153   raise e.with_traceback(filtered_tb) from None
+    154 finally:
+    155   del filtered_tb
+
+File ~\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\keras\layers\core\tf_op_layer.py:119,
+	in KerasOpDispatcher.handle(self, op, args, kwargs)
+    114 \"\"\"Handle the specified operation with the specified arguments.\"\"\"
+    115 if any(
+    116     isinstance(x, keras_tensor.KerasTensor)
+    117     for x in tf.nest.flatten([args, kwargs])
+    118 ):
+--> 119     return TFOpLambda(op)(*args, **kwargs)
+    120 else:
+    121     return self.NOT_SUPPORTED
+
+File ~\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\keras\utils\traceback_utils.py:70,
+	in filter_traceback.<locals>.error_handler(*args, **kwargs)
      67     filtered_tb = _process_traceback_frames(e.__traceback__)
      68     # To get the full stack trace, call:
      69     # `tf.debugging.disable_traceback_filtering()`
@@ -20,15 +76,12 @@ File ~\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0
      71 finally:
      72     del filtered_tb
 
-File ~\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\tensorflow\python\eager\polymorphic_function\polymorphic_function.py:926, in Function._call(self, *args, **kwds)
-    923   self._lock.release()
-    924   # In this case we have created variables on the first call, so we run the
-    925   # defunned version which is guaranteed to never create variables.
---> 926   return self._no_variable_creation_fn(*args, **kwds)  # pylint: disable=not-callable
-    927 elif self._variable_creation_fn is not None:
-    928   # Release the lock early so that multiple threads can perform the call
-    929   # in parallel.
-    930   self._lock.release()
+ValueError: Exception encountered when calling layer \"tf.__operators__.add_15\" (type TFOpLambda).
 
-TypeError: 'NoneType' object is not callable"
+Dimensions must be equal, but are 3 and 2 for '{{node tf.__operators__.add_15/AddV2}} = AddV2[T=DT_FLOAT](tf.__operators__.add_15/AddV2/x, Placeholder)' with input shapes: [3], [?,2].
+
+Call arguments received by layer \"tf.__operators__.add_15\" (type TFOpLambda):
+  • x=tf.Tensor(shape=(3,), dtype=float32)
+  • y=tf.Tensor(shape=(None, 2), dtype=float32)
+  • name=None"
 }

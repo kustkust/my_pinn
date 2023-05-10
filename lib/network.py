@@ -15,11 +15,11 @@ class Network:
         # output layer
         outputs_n = tf.keras.layers.Dense(1,
                                           kernel_initializer='he_normal')(x)
-        outputs_v = tf.keras.layers.Dense(kwargs["dim"],
-                                          kernel_initializer='he_normal')(x)
+        # outputs_v = tf.keras.layers.Dense(kwargs["dim"],
+        #                                   kernel_initializer='he_normal')(x)
         outputs_Fi = tf.keras.layers.Dense(1,
                                            kernel_initializer='he_normal')(x)
 
         tf.keras.models.Sequential
 
-        return tf.keras.models.Model(inputs=inputs, outputs=[outputs_n, outputs_v, outputs_Fi])
+        return tf.keras.models.Model(inputs=inputs, outputs=[outputs_n, outputs_Fi])
