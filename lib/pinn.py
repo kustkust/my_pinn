@@ -23,28 +23,32 @@ class PINN:
         ins.append(tf.keras.layers.Input(1))                         # Fi_start
 
         outs = []
-        
+
         c, c_t, c_grd, \
-            Fi, Fi_grd, Fi_lap, j_div = \
+            v_t, v_div, v_adv, v_lap, \
+            Fi_grd, Fi_lap, j_div = \
             self.grads(ins[0])
         outs.append(c_t + j_div)
         outs.append(Fi_lap + 4*pi*l*kT*(z*c))
-        outs.append(p_grd + (kT*c_grd + z*e*c*Fi_grd))
-        # eq_4 = v_div
+        outs.append(ro*(v_t + v_adv) + p_grd - nu*v_lap + (kT*c_grd + z*e*c*Fi_grd))
+        outs.append(v_div)
 
-        c_l, Fi_l = self.network(ins[1])
+        r_l = self.network(ins[1])
+        c_l, v_l, Fi_l = r_l["c"], r_l["v"], r_l["Fi"]
         outs.append(c_l - c_left)
-        # eq_v_left = v_l - v_left
+        outs.append(v_l - v_left)
         outs.append(Fi_l - Fi_left)
 
-        c_r, Fi_r = self.network(ins[2])
+        r_r = self.network(ins[2])
+        c_r, v_r, Fi_r = r_r["c"], r_r["v"], r_r["Fi"]
         outs.append(c_r - c_right)
-        # eq_v_right = v_r - v_right
+        outs.append(v_r - v_right)
         outs.append(Fi_r - Fi_right)
 
-        c_s, Fi_s = self.network(ins[3])
+        r_s = self.network(ins[2])
+        c_s, v_s, Fi_s = r_s["c"], r_s["v"], r_s["Fi"]
         outs.append(c_s - c_start)
-        # eq_v_start = v_s - v_start
+        outs.append(v_s - v_start)
         outs.append(Fi_s - ins[4])
 
         return tf.keras.models.Model(inputs=ins, outputs=outs)

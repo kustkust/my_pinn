@@ -1,74 +1,41 @@
-\u001b\[[\d;]*m
+\\u001b\[[\d;]*m
 (File .*\.py:[\d]*,) 
 $1\n\t
+\t
 
 {
-	"name": "ValueError",
-	"message": "Exception encountered when calling layer \"tf.__operators__.add_15\" (type TFOpLambda).
+	"name": "RuntimeError",
+	"message": "Exception encountered when calling layer \"gradient_layer\" (type GradientLayer).
 
-Dimensions must be equal, but are 3 and 2 for '{{node tf.__operators__.add_15/AddV2}} = AddV2[T=DT_FLOAT](tf.__operators__.add_15/AddV2/x, Placeholder)' with input shapes: [3], [?,2].
+KeyError: 'c'
 
-Call arguments received by layer \"tf.__operators__.add_15\" (type TFOpLambda):
-  • x=tf.Tensor(shape=(3,), dtype=float32)
-  • y=tf.Tensor(shape=(None, 2), dtype=float32)
-  • name=None",
+Call arguments received by layer \"gradient_layer\" (type GradientLayer):
+  • x=tf.Tensor(shape=(None, 2), dtype=float32)",
 	"stack": "---------------------------------------------------------------------------
-ValueError                                Traceback (most recent call last)
-Cell In[7], line 10
-      1 params = [
-      2     build_params(1),
-      3     build_params(2),
-      4     build_params(3),
-      5 ]
-      7 networks = [
-      8     Network.build(layers=[100,100,100], activation='softmax', **p) for p in params
-      9 ]
----> 10 pinns = [PINN(n, **p).build(**p) for n, p in zip(networks, params)]
-     11 for pinn in pinns:
-     12     pinn.compile(optimizer='adam', loss='mse')
+RuntimeError                              Traceback (most recent call last)
+Cell In[11], line 1
+----> 1 pinns = [PINN(n, **p).build(**p) for n, p in zip(networks, params)]
+      2 for pinn in pinns:
+      3     pinn.compile(optimizer=optimizer, loss=loss)
 
-Cell In[7], line 10, in <listcomp>(.0)
-      1 params = [
-      2     build_params(1),
-      3     build_params(2),
-      4     build_params(3),
-      5 ]
-      7 networks = [
-      8     Network.build(layers=[100,100,100], activation='softmax', **p) for p in params
-      9 ]
----> 10 pinns = [PINN(n, **p).build(**p) for n, p in zip(networks, params)]
-     11 for pinn in pinns:
-     12     pinn.compile(optimizer='adam', loss='mse')
+Cell In[11], line 1, in <listcomp>(.0)
+----> 1 pinns = [PINN(n, **p).build(**p) for n, p in zip(networks, params)]
+      2 for pinn in pinns:
+      3     pinn.compile(optimizer=optimizer, loss=loss)
 
-File c:\Users\kust\Diplom\my_pinn\lib\pinn.py:32,
-	in PINN.build(self, nu, z, l, kT, ro, e, p_grd, Fi_left, Fi_right, c_left, c_right, c_start, v_left, v_right, v_start, **kwargs)
-     30 outputs.append(c_t + j_div)
-     31 outputs.append(Fi_lap + 4*pi*l*kT*(z*c))
----> 32 outputs.append(p_grd + (kT*c_grd + z*e*c*Fi_grd))
-     33 # eq_4 = v_div
-     35 c_l, Fi_l = self.network(inputs[1])
+File c:\\Users\\kust\\Diplom\\my_pinn\\lib\\pinn.py:30,
+	 in PINN.build(self, nu, z, l, kT, ro, e, p_grd, Fi_left, Fi_right, c_left, c_right, c_start, v_left, v_right, v_start, **kwargs)
+     23 ins.append(tf.keras.layers.Input(1))                         # Fi_start
+     25 outs = []
+     27 c, c_t, c_grd, \\
+     28     v_t, v_div, v_adv, v_lap, \\
+     29     Fi_grd, Fi_lap, j_div = \\
+---> 30     self.grads(ins[0])
+     31 outs.append(c_t + j_div)
+     32 outs.append(Fi_lap + 4*pi*l*kT*(z*c))
 
-File ~\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\tensorflow\python\util\traceback_utils.py:153,
-	in filter_traceback.<locals>.error_handler(*args, **kwargs)
-    151 except Exception as e:
-    152   filtered_tb = _process_traceback_frames(e.__traceback__)
---> 153   raise e.with_traceback(filtered_tb) from None
-    154 finally:
-    155   del filtered_tb
-
-File ~\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\keras\layers\core\tf_op_layer.py:119,
-	in KerasOpDispatcher.handle(self, op, args, kwargs)
-    114 \"\"\"Handle the specified operation with the specified arguments.\"\"\"
-    115 if any(
-    116     isinstance(x, keras_tensor.KerasTensor)
-    117     for x in tf.nest.flatten([args, kwargs])
-    118 ):
---> 119     return TFOpLambda(op)(*args, **kwargs)
-    120 else:
-    121     return self.NOT_SUPPORTED
-
-File ~\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\keras\utils\traceback_utils.py:70,
-	in filter_traceback.<locals>.error_handler(*args, **kwargs)
+File ~\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python310\\site-packages\\keras\\utils\\traceback_utils.py:70,
+	 in filter_traceback.<locals>.error_handler(*args, **kwargs)
      67     filtered_tb = _process_traceback_frames(e.__traceback__)
      68     # To get the full stack trace, call:
      69     # `tf.debugging.disable_traceback_filtering()`
@@ -76,12 +43,18 @@ File ~\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0
      71 finally:
      72     del filtered_tb
 
-ValueError: Exception encountered when calling layer \"tf.__operators__.add_15\" (type TFOpLambda).
+File ~\\AppData\\Local\\Temp\\__autograph_generated_fileorokvodw.py:35,
+	 in outer_factory.<locals>.inner_factory.<locals>.tf__call(self, x)
+     33     ag__.converted_call(ag__.ld(g).watch, (ag__.ld(x),), None, fscope)
+     34     r = ag__.converted_call(ag__.ld(self).model, (ag__.ld(x),), None, fscope)
+---> 35     (c, v, Fi) = (ag__.ld(r)['c'], ag__.ld(r)['v'], ag__.ld(r)['Fi'])
+     36 ag__.converted_call(ag__.ld(print_t), (ag__.ld(c),), dict(debug=ag__.ld(print_debug)), fscope)
+     37 c_jac = ag__.converted_call(ag__.ld(g).batch_jacobian, (ag__.ld(c), ag__.ld(x)), None, fscope)[..., 0, :]
 
-Dimensions must be equal, but are 3 and 2 for '{{node tf.__operators__.add_15/AddV2}} = AddV2[T=DT_FLOAT](tf.__operators__.add_15/AddV2/x, Placeholder)' with input shapes: [3], [?,2].
+RuntimeError: Exception encountered when calling layer \"gradient_layer\" (type GradientLayer).
 
-Call arguments received by layer \"tf.__operators__.add_15\" (type TFOpLambda):
-  • x=tf.Tensor(shape=(3,), dtype=float32)
-  • y=tf.Tensor(shape=(None, 2), dtype=float32)
-  • name=None"
+KeyError: 'c'
+
+Call arguments received by layer \"gradient_layer\" (type GradientLayer):
+  • x=tf.Tensor(shape=(None, 2), dtype=float32)"
 }

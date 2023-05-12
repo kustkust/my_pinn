@@ -18,7 +18,7 @@ def build_params(dim):
         "density_water": 26.15,
         "z": 1.,
         "e": 1.,
-        "ro": 26.18,
+        "ro": 26.15,
         "p_grd": tf.constant([0.,1.,0.]),
     }
     trim = slice(0, 1+p["dim"])

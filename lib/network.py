@@ -13,13 +13,16 @@ class Network:
             x = tf.keras.layers.Dense(layer, activation=activation,
                                       kernel_initializer='he_normal')(x)
         # output layer
-        outputs_n = tf.keras.layers.Dense(1,
-                                          kernel_initializer='he_normal')(x)
-        # outputs_v = tf.keras.layers.Dense(kwargs["dim"],
-        #                                   kernel_initializer='he_normal')(x)
-        outputs_Fi = tf.keras.layers.Dense(1,
-                                           kernel_initializer='he_normal')(x)
+        # outs = []
+        # outs.append(tf.keras.layers.Dense(1, kernel_initializer='he_normal')(x))  # n 
+        # outs.append(tf.keras.layers.Dense(kwargs["dim"], kernel_initializer='he_normal')(x))  # v
+        # outs.append(tf.keras.layers.Dense(1, kernel_initializer='he_normal')(x))
 
-        tf.keras.models.Sequential
+        # return tf.keras.models.Model(inputs=inputs, outputs=outs)
 
-        return tf.keras.models.Model(inputs=inputs, outputs=[outputs_n, outputs_Fi])
+        douts = {
+            "c": tf.keras.layers.Dense(1, kernel_initializer='he_normal')(x),
+            "v": tf.keras.layers.Dense(kwargs["dim"], kernel_initializer='he_normal')(x),
+            "Fi": tf.keras.layers.Dense(1, kernel_initializer='he_normal')(x)
+        }
+        return tf.keras.models.Model(inputs=inputs, outputs=douts)
