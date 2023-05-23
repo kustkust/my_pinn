@@ -1,0 +1,142 @@
+@article{bib:lbat:1,
+  author          = {Aykol, Muratahan and Gopal, Chirranjeevi Balaji and Anapolsky, Abraham and Herring, Patrick K. and van Vlijmen, Bruis and Berliner, Marc D. and Bazant, Martin Z. and Braatz, Richard D. and Chueh, William C. and Storey, Brian D.},
+  journal         = {Journal of the Electrochemical Society},
+  number          = {3},
+  title           = {Perspective-combining physics and machine learning to predict battery lifetime},
+  volume          = {168},
+  year            = {2021}
+}
+@article{bib:lbat:2,
+  author          = {Nascimento, Renato G. and Corbetta, Matteo and Kulkarni, Chetan S. and Viana, Felipe A. C.},
+  journal         = {Journal of Power Sources},
+  number          = {513},
+  title           = {Hybrid physics-informed neural networks for lithium-ion battery modeling and prognosis},
+  volume          = {1},
+  year            = {2021}
+}
+@article{bib:nonlin:1,
+title = {Physics guided neural networks for modelling of non-linear dynamics},
+journal = {Neural Networks},
+volume = {154},
+pages = {333-345},
+year = {2022},
+issn = {0893-6080},
+doi = {https://doi.org/10.1016/j.neunet.2022.07.023},
+url = {https://www.sciencedirect.com/science/article/pii/S0893608022002854},
+author = {Haakon Robinson and Suraj Pawar and Adil Rasheed and Omer San},
+keywords = {Physics guided neural networks, Non-linear dynamics, Ordinary differential equations},
+abstract = {The success of the current wave of artificial intelligence can be partly attributed to deep neural networks, which have proven to be very effective in learning complex patterns from large datasets with minimal human intervention. However, it is difficult to train these models on complex dynamical systems from data alone due to their low data efficiency and sensitivity to hyperparameters and initialisation. This work demonstrates that injection of partially known information at an intermediate layer in a DNN can improve model accuracy, reduce model uncertainty, and yield improved convergence during the training. The value of these physics-guided neural networks has been demonstrated by learning the dynamics of a wide variety of nonlinear dynamical systems represented by five well-known equations in nonlinear systems theory: the Lotka–Volterra, Duffing, Van der Pol, Lorenz, and Henon–Heiles systems.}
+}
+@article{bib:heat:1,
+title = {A physics-informed machine learning approach for solving heat transfer equation in advanced manufacturing and engineering applications},
+journal = {Engineering Applications of Artificial Intelligence},
+volume = {101},
+pages = {104232},
+year = {2021},
+issn = {0952-1976},
+doi = {https://doi.org/10.1016/j.engappai.2021.104232},
+url = {https://www.sciencedirect.com/science/article/pii/S0952197621000798},
+author = {Navid Zobeiry and Keith D. Humfeld},
+keywords = {Physics-informed machine learning, Theory-guided feature engineering, Convective heat transfer, Advanced manufacturing, Industry 4.0},
+abstract = {A physics-informed neural network is developed to solve conductive heat transfer partial differential equation (PDE), along with convective heat transfer PDEs as boundary conditions (BCs), in manufacturing and engineering applications where parts are heated in ovens. Since convective coefficients are typically unknown, current analysis approaches based on trial-and-error finite element (FE) simulations are slow. The loss function is defined based on errors to satisfy PDE, BCs and initial condition. An adaptive normalizing scheme is developed to reduce loss terms simultaneously. In addition, theory of heat transfer is used for feature engineering. The predictions for 1D and 2D cases are validated by comparing with FE results. While comparing with theory-agnostic ML methods, it is shown that only by using physics-informed activation functions, the heat transfer beyond the training zone can be accurately predicted. Trained models were successfully used for real-time evaluation of thermal responses of parts subjected to a wide range of convective BCs.}
+}
+@article{bib:heat:2,
+    author = {Cai, Shengze and Wang, Zhicheng and Wang, Sifan and Perdikaris, Paris and Karniadakis, George Em},
+    title = "{Physics-Informed Neural Networks for Heat Transfer Problems}",
+    journal = {Journal of Heat Transfer},
+    volume = {143},
+    number = {6},
+    year = {2021},
+    month = {04},
+    abstract = "{Physics-informed neural networks (PINNs) have gained popularity across different engineering fields due to their effectiveness in solving realistic problems with noisy data and often partially missing physics. In PINNs, automatic differentiation is leveraged to evaluate differential operators without discretization errors, and a multitask learning problem is defined in order to simultaneously fit observed data while respecting the underlying governing laws of physics. Here, we present applications of PINNs to various prototype heat transfer problems, targeting in particular realistic conditions not readily tackled with traditional computational methods. To this end, we first consider forced and mixed convection with unknown thermal boundary conditions on the heated surfaces and aim to obtain the temperature and velocity fields everywhere in the domain, including the boundaries, given some sparse temperature measurements. We also consider the prototype Stefan problem for two-phase flow, aiming to infer the moving interface, the velocity and temperature fields everywhere as well as the different conductivities of a solid and a liquid phase, given a few temperature measurements inside the domain. Finally, we present some realistic industrial applications related to power electronics to highlight the practicality of PINNs as well as the effective use of neural networks in solving general heat transfer problems of industrial complexity. Taken together, the results presented herein demonstrate that PINNs not only can solve ill-posed problems, which are beyond the reach of traditional computational methods, but they can also bridge the gap between computational and experimental heat transfer.}",
+    issn = {0022-1481},
+    doi = {10.1115/1.4050542},
+    url = {https://doi.org/10.1115/1.4050542},
+    note = {060801},
+    eprint = {https://asmedigitalcollection.asme.org/heattransfer/article-pdf/143/6/060801/6688635/ht\_143\_06\_060801.pdf},
+}
+@Article{bib:navstock:1,
+AUTHOR = {Pioch, Fabian and Harmening, Jan Hauke and Müller, Andreas Maximilian and Peitzmann, Franz-Josef and Schramm, Dieter and el Moctar, Ould},
+TITLE = {Turbulence Modeling for Physics-Informed Neural Networks: Comparison of Different RANS Models for the Backward-Facing Step Flow},
+JOURNAL = {Fluids},
+VOLUME = {8},
+YEAR = {2023},
+NUMBER = {2},
+ARTICLE-NUMBER = {43},
+URL = {https://www.mdpi.com/2311-5521/8/2/43},
+ISSN = {2311-5521},
+ABSTRACT = {Physics-informed neural networks (PINN) can be used to predict flow fields with a minimum of simulated or measured training data. As most technical flows are turbulent, PINNs based on the Reynolds-averaged Navier&ndash;Stokes (RANS) equations incorporating a turbulence model are needed. Several studies demonstrated the capability of PINNs to solve the Naver&ndash;Stokes equations for laminar flows. However, little work has been published concerning the application of PINNs to solve the RANS equations for turbulent flows. This study applied a RANS-based PINN approach to a backward-facing step flow at a Reynolds number of 5100. The standard k-&omega; model, the mixing length model, an equation-free &nu;t and an equation-free pseudo-Reynolds stress model were applied. The results compared favorably to DNS data when provided with three vertical lines of labeled training data. For five lines of training data, all models predicted the separated shear layer and the associated vortex more accurately.},
+DOI = {10.3390/fluids8020043}
+}
+@article{bib:chemkin:1,
+author = {Ji, Weiqi and Qiu, Weilun and Shi, Zhiyu and Pan, Shaowu and Deng, Sili},
+title = {Stiff-PINN: Physics-Informed Neural Network for Stiff Chemical Kinetics},
+journal = {The Journal of Physical Chemistry A},
+volume = {125},
+number = {36},
+pages = {8098-8106},
+year = {2021},
+doi = {10.1021/acs.jpca.1c05102},
+    note ={PMID: 34463510},
+
+URL = { 
+        https://doi.org/10.1021/acs.jpca.1c05102
+    
+},
+eprint = { 
+        https://doi.org/10.1021/acs.jpca.1c05102
+    
+}
+
+}
+@article{bib:chemkin:2,
+title = {Kinetics-informed neural networks},
+journal = {Catalysis Today},
+year = {2022},
+issn = {0920-5861},
+doi = {https://doi.org/10.1016/j.cattod.2022.04.002},
+url = {https://www.sciencedirect.com/science/article/pii/S0920586122001195},
+author = {Gabriel S. Gusmão and Adhika P. Retnanto and Shashwati C. da Cunha and Andrew J. Medford},
+keywords = {Physics-informed neural network, Surrogate approximator, Physically informed neural network, Catalysis, Transient, Chemical kinetics},
+abstract = {Chemical kinetics and reaction engineering consists of the phenomenological framework for the disentanglement of reaction mechanisms, optimization of reaction performance and the rational design of chemical processes. Here, we utilize feed-forward artificial neural networks as basis functions to solve ordinary differential equations (ODEs) constrained by differential algebraic equations (DAEs) that describe microkinetic models (MKMs). We present an algebraic framework for the mathematical description and classification of reaction networks, types of elementary reaction, and chemical species. Under this framework, we demonstrate that the simultaneous training of neural nets and kinetic model parameters in a regularized multi-objective optimization setting leads to the solution of the inverse problem through the estimation of kinetic parameters from synthetic experimental data. We analyze a set of scenarios to establish the extent to which kinetic parameters can be retrieved from transient kinetic data, and assess the robustness of the methodology with respect to statistical noise. This approach to inverse kinetic ODEs can assist in the elucidation of reaction mechanisms based on transient data.}
+}
+@article{bib:voltogr:1,
+author = {Chen, Haotian and Kätelhön, Enno and Compton, Richard G.},
+title = {Predicting Voltammetry Using Physics-Informed Neural Networks},
+journal = {The Journal of Physical Chemistry Letters},
+volume = {13},
+number = {2},
+pages = {536-543},
+year = {2022},
+doi = {10.1021/acs.jpclett.1c04054},
+    note ={PMID: 35007069},
+
+URL = { 
+        https://doi.org/10.1021/acs.jpclett.1c04054
+    
+},
+eprint = { 
+        https://doi.org/10.1021/acs.jpclett.1c04054
+    
+}
+
+}
+@misc{bib:pinn:first,
+      title={Physics Informed Deep Learning (Part I): Data-driven Solutions of Nonlinear Partial Differential Equations}, 
+      author={Maziar Raissi and Paris Perdikaris and George Em Karniadakis},
+      year={2017},
+      eprint={1711.10561},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI}
+}
+@misc{bib:BINN:1,
+  author          = {John H. Lagergren and John T. Nardini and Ruth E. Baker and Matthew J. Simpson and Kevin B. Flores},
+  title           = {Biologically-informed neural networks guide mechanistic modeling from sparse experimental data},
+  year            = {2020},
+  URL = {https://doi.org/10.1371/journal.pcbi.1008462}
+}
+@misc{bib:tutor,
+    URL={https://github.com/espressomd/espresso/blob/python/doc/tutorials/electrokinetics/electrokinetics.ipynb},
+    title={Electrokinetics},
+    author={Jean-Noël Grad}
+}
