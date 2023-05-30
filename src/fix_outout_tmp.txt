@@ -1,0 +1,78 @@
+\\u001b\[[\d;]*m
+(File .*\.py:[\d]*,) 
+$1\n\t\t
+
+{
+	"name": "ValueError",
+	"message": "Exception encountered when calling layer "gl_22" (type GL).
+
+in user code:
+
+    File "C:\\Users\\kust\\AppData\\Local\\Temp\\ipykernel_16904\\3274065557.py", line 22, in call  *
+        u = net(x)
+    File "C:\\Users\\kust\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python310\\site-packages\\keras\\utils\\traceback_utils.py", line 70, in error_handler  **
+        raise e.with_traceback(filtered_tb) from None
+    File "C:\\Users\\kust\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python310\\site-packages\\keras\\engine\\input_spec.py", line 253, in assert_input_compatibility
+        raise ValueError(
+
+    ValueError: Exception encountered when calling layer 'model_92' (type Functional).
+    
+    Input 0 of layer "dense_195" is incompatible with the layer: expected min_ndim=2, found ndim=1. Full shape received: (2,)
+    
+    Call arguments received by layer 'model_92' (type Functional):
+      • inputs=tf.Tensor(shape=(2,), dtype=float32)
+      • training=None
+      • mask=None
+
+
+Call arguments received by layer "gl_22" (type GL):
+  • x=tf.Tensor(shape=(2,), dtype=float32)",
+	"stack": "---------------------------------------------------------------------------
+ValueError                                Traceback (most recent call last)
+Cell In[259], line 31
+     28         u_f2 = u_jac2[..., 1, 1]
+     29         return u, u_r2 + 1/x[..., 0]*u_r + 1/x[..., 0]**2*u_f2
+---> 31 pinn = tf.keras.Model(inputs=inputs, outputs=GL(net)(inputs[0]))
+     32 pinn.compile('adam', 'mse')
+
+File ~\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python310\\site-packages\\keras\\utils\\traceback_utils.py:70,
+		in filter_traceback.<locals>.error_handler(*args, **kwargs)
+     67     filtered_tb = _process_traceback_frames(e.__traceback__)
+     68     # To get the full stack trace, call:
+     69     # `tf.debugging.disable_traceback_filtering()`
+---> 70     raise e.with_traceback(filtered_tb) from None
+     71 finally:
+     72     del filtered_tb
+
+File ~\\AppData\\Local\\Temp\\__autograph_generated_filea3f9c36u.py:14,
+		in outer_factory.<locals>.inner_factory.<locals>.tf__call(self, x)
+     12 with ag__.ld(tf).GradientTape(persistent=True) as g:
+     13     ag__.converted_call(ag__.ld(g).watch, (ag__.ld(x),), None, fscope)
+---> 14     u = ag__.converted_call(ag__.ld(net), (ag__.ld(x),), None, fscope)
+     15 u_grad = ag__.converted_call(ag__.ld(g).batch_jacobian, (ag__.ld(u), ag__.ld(x)), None, fscope)[..., 0, :]
+     16 u_r = ag__.ld(u_grad)[..., 0]
+
+ValueError: Exception encountered when calling layer "gl_22" (type GL).
+
+in user code:
+
+    File "C:\\Users\\kust\\AppData\\Local\\Temp\\ipykernel_16904\\3274065557.py", line 22, in call  *
+        u = net(x)
+    File "C:\\Users\\kust\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python310\\site-packages\\keras\\utils\\traceback_utils.py", line 70, in error_handler  **
+        raise e.with_traceback(filtered_tb) from None
+    File "C:\\Users\\kust\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python310\\site-packages\\keras\\engine\\input_spec.py", line 253, in assert_input_compatibility
+        raise ValueError(
+
+    ValueError: Exception encountered when calling layer 'model_92' (type Functional).
+    
+    Input 0 of layer "dense_195" is incompatible with the layer: expected min_ndim=2, found ndim=1. Full shape received: (2,)
+    
+    Call arguments received by layer 'model_92' (type Functional):
+      • inputs=tf.Tensor(shape=(2,), dtype=float32)
+      • training=None
+      • mask=None
+
+
+Call arguments received by layer "gl_22" (type GL):
+  • x=tf.Tensor(shape=(2,), dtype=float32)"
+}
