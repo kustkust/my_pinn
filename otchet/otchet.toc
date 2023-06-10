@@ -1,16 +1,13 @@
 \babel@toc {russian}{}\relax 
-\contentsline {section}{РЕФЕРАТ}{2}{}%
-\contentsline {section}{\numberline {1}Введение}{4}{}%
-\contentsline {section}{\numberline {2}Постановка задачи}{6}{}%
-\contentsline {subsection}{\numberline {2.1}Цель работы}{6}{}%
-\contentsline {subsection}{\numberline {2.2}Описание задачи}{6}{}%
-\contentsline {section}{\numberline {3}Используемые технологии}{7}{}%
-\contentsline {section}{\numberline {4}Теоретическое описание PINN}{8}{}%
-\contentsline {section}{\numberline {5}Техническая реализация}{10}{}%
-\contentsline {section}{\numberline {6}Эксперименты}{11}{}%
-\contentsline {subsection}{\numberline {6.1}Установившееся распределение тепла в кольце}{11}{}%
-\contentsline {subsection}{\numberline {6.2}Задача электрокинетики}{13}{}%
-\contentsline {subsection}{\numberline {6.3}Упрощённый случай}{14}{}%
-\contentsline {subsection}{\numberline {6.4}Полный случай}{15}{}%
-\contentsline {section}{\numberline {7}Заключение}{16}{}%
-\contentsline {section}{\numberline {8}{\cyrillictext \CYRS \cyrp \cyri \cyrs \cyro \cyrk \ \cyrl \cyri \cyrt \cyre \cyrr \cyra \cyrt \cyru \cyrr \cyrery }}{17}{}%
+\contentsline {section}{\numberline {1}Введение}{3}{}%
+\contentsline {section}{\numberline {2}Постановка задачи}{5}{}%
+\contentsline {subsection}{\numberline {2.1}Цель работы}{5}{}%
+\contentsline {subsection}{\numberline {2.2}Описание задачи}{5}{}%
+\contentsline {section}{\numberline {3}Теоретическое описание PINN}{6}{}%
+\contentsline {section}{\numberline {4}Техническая реализация}{8}{}%
+\contentsline {subsection}{\numberline {4.1}Используемые технологии}{8}{}%
+\contentsline {subsection}{\numberline {4.2}Общая архитектура PINN}{8}{}%
+\contentsline {section}{\numberline {5}Эксперименты}{9}{}%
+\contentsline {subsection}{\numberline {5.1}Установившееся распределение тепла в кольце}{9}{}%
+\contentsline {section}{\numberline {6}Заключение}{16}{}%
+\contentsline {section}{\numberline {7}{\cyrillictext \CYRS \cyrp \cyri \cyrs \cyro \cyrk \ \cyrl \cyri \cyrt \cyre \cyrr \cyra \cyrt \cyru \cyrr \cyrery }}{17}{}%

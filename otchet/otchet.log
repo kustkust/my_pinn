@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.10.12)  29 MAY 2023 19:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.10.12)  31 MAY 2023 16:49
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -771,23 +771,27 @@ Package tocbasic Info: setting babel extension for `nls' on input line 188.
 Package nomencl Info: Writing nomenclature file otchet.nlo on input line 23.
  (c:/texlive/2022/texmf-dist/tex/latex/totcount/totcount.sty
 Package: totcount 2011/01/25 v1.2 package for gettingthe total value of LaTeX counters
+) (c:/texlive/2022/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2022/01/07 v1.5 Sub-captions (AR)
+\c@subfigure=\count314
+\c@subtable=\count315
 ) (c:/texlive/2022/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count314
+\lst@mode=\count316
 \lst@gtempboxa=\box71
 \lst@token=\toks52
-\lst@length=\count315
+\lst@length=\count317
 \lst@currlwidth=\dimen309
-\lst@column=\count316
-\lst@pos=\count317
+\lst@column=\count318
+\lst@pos=\count319
 \lst@lostspace=\dimen310
 \lst@width=\dimen311
-\lst@newlines=\count318
-\lst@lineno=\count319
+\lst@newlines=\count320
+\lst@lineno=\count321
 \lst@maxwidth=\dimen312
  (c:/texlive/2022/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
-\c@lstnumber=\count320
-\lst@skipnumbers=\count321
+\c@lstnumber=\count322
+\lst@skipnumbers=\count323
 \lst@framebox=\box72
 ) (c:/texlive/2022/texmf-dist/tex/latex/listings/listings.cfg
 File: listings.cfg 2020/03/24 1.8d listings configuration
@@ -824,36 +828,38 @@ File: p2e-pdftex.def 2016/02/05 v0.1u Driver-dependant file (RN,HjG,JT)
 \diagbox@insepr=\dimen324
 \diagbox@outsepl=\dimen325
 \diagbox@outsepr=\dimen326
+) (c:/texlive/2022/texmf-dist/tex/latex/placeins/placeins.sty
+Package: placeins 2005/04/18  v 2.2
 )
-\c@figure@totc=\count322
-\c@page@totc=\count323
-\c@citnum=\count324
-\c@citnum@totc=\count325
-\c@citesnum=\count326
-\c@citesnum@totc=\count327
+\c@figure@totc=\count324
+\c@page@totc=\count325
+\c@citnum=\count326
+\c@citnum@totc=\count327
+\c@citesnum=\count328
+\c@citesnum@totc=\count329
  (c:/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2022-09-28 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count328
+\l__color_backend_stack_int=\count330
 \l__pdf_internal_box=\box76
-) (./otchet.aux (./anot.aux))
+) (./otchet.aux)
 \openout1 = `otchet.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -889,22 +895,22 @@ LaTeX Font Info:    ... okay on input line 75.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Info: Redefining \th on input line 75.
+LaTeX Info: Redefining \th on input line 77.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
 (c:/texlive/2022/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count329
+\scratchcounter=\count331
 \scratchdimen=\dimen327
 \scratchbox=\box77
-\nofMPsegments=\count330
-\nofMParguments=\count331
+\nofMPsegments=\count332
+\nofMParguments=\count333
 \everyMPshowfont=\toks54
-\MPscratchCnt=\count332
+\MPscratchCnt=\count334
 \MPscratchDim=\dimen328
-\MPnumerator=\count333
-\makeMPintoPDFobject=\count334
+\MPnumerator=\count335
+\makeMPintoPDFobject=\count336
 \everyMPtoPDFconversion=\toks55
 ) (c:/texlive/2022/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -921,111 +927,97 @@ Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 )
-\c@lstlisting=\count335
+\c@lstlisting=\count337
+<титульник.jpg, id=5, 963.6pt x 1284.8pt>
+File: титульник.jpg Graphic file (type jpg)
+<use титульник.jpg>
+Package pdftex.def Info: титульник.jpg  used on input line 92.
+(pdftex.def)             Requested size: 455.24411pt x 606.9928pt.
+
+Overfull \hbox (21.14975pt too wide) in paragraph at lines 92--94
+[][]
+ []
 
 
-pdfTeX warning: pdflatex.exe (file ./Отчет по практике (2).pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Отчет по практике (2).pdf, id=5, 597.55246pt x 845.07718pt>
-File: Отчет по практике (2).pdf Graphic file (type pdf)
-<use Отчет по практике (2).pdf>
-Package pdftex.def Info: Отчет по практике (2).pdf  used on input line 87.
-(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
+Underfull \hbox (badness 10000) in paragraph at lines 92--94
 
+ []
 
-pdfTeX warning: pdflatex.exe (file ./Отчет по практике (2).pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-File: Отчет по практике (2).pdf Graphic file (type pdf)
-<use Отчет по практике (2).pdf>
-Package pdftex.def Info: Отчет по практике (2).pdf  used on input line 87.
-(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
-
-
-pdfTeX warning: pdflatex.exe (file ./Отчет по практике (2).pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-
-
-pdfTeX warning: pdflatex.exe (file ./Отчет по практике (2).pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Отчет по практике (2).pdf, id=8, page=1, 597.55246pt x 845.07718pt>
-File: Отчет по практике (2).pdf Graphic file (type pdf)
-<use Отчет по практике (2).pdf, page 1>
-Package pdftex.def Info: Отчет по практике (2).pdf , page1 used on input line 87.
-(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
-File: Отчет по практике (2).pdf Graphic file (type pdf)
-<use Отчет по практике (2).pdf, page 1>
-Package pdftex.def Info: Отчет по практике (2).pdf , page1 used on input line 87.
-(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
-File: Отчет по практике (2).pdf Graphic file (type pdf)
-<use Отчет по практике (2).pdf, page 1>
-Package pdftex.def Info: Отчет по практике (2).pdf , page1 used on input line 87.
-(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
-File: Отчет по практике (2).pdf Graphic file (type pdf)
-<use Отчет по практике (2).pdf, page 1>
-Package pdftex.def Info: Отчет по практике (2).pdf , page1 used on input line 87.
-(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
-File: Отчет по практике (2).pdf Graphic file (type pdf)
-<use Отчет по практике (2).pdf, page 1>
-Package pdftex.def Info: Отчет по практике (2).pdf , page1 used on input line 87.
-(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
 [1
 
- <./Отчет по практике (2).pdf>]
-\openout2 = `anot.aux'.
-
- (./anot.tex [2
-
-{c:/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]) (./otchet.toc<<ot1.cmap>><<oml.cmap>><<oms.cmap>><<omx.cmap>>
-LaTeX Font Info:    Trying to load font information for U+msa on input line 5.
+ <./титульник.jpg>] (./otchet.toc<<ot1.cmap>><<oml.cmap>><<oms.cmap>><<omx.cmap>>
+LaTeX Font Info:    Trying to load font information for U+msa on input line 4.
  (c:/texlive/2022/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 5.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 4.
  (c:/texlive/2022/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+wasy on input line 5.
+LaTeX Font Info:    Trying to load font information for U+wasy on input line 4.
  (c:/texlive/2022/texmf-dist/tex/latex/wasysym/uwasy.fd
 File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
 ))
 \tf@toc=\write5
 \openout5 = `otchet.toc'.
 
- [3
-
-
-] [4] [5] [6] [7] [8] [9]
-LaTeX Font Info:    Trying to load font information for T2A+cmtt on input line 169.
- (c:/texlive/2022/texmf-dist/tex/latex/cyrillic/t2acmtt.fd
-File: t2acmtt.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
-) [10] [11]
-<../plots/loss termal l = (20x3, 50x3) (1000, 10000, 100000) (bnd, in).png, id=102, 462.528pt x 346.896pt>
-File: ../plots/loss termal l = (20x3, 50x3) (1000, 10000, 100000) (bnd, in).png Graphic file (type png)
-<use ../plots/loss termal l = (20x3, 50x3) (1000, 10000, 100000) (bnd, in).png>
-Package pdftex.def Info: ../plots/loss termal l = (20x3, 50x3) (1000, 10000, 100000) (bnd, in).png  used on input line 236.
-(pdftex.def)             Requested size: 455.24411pt x 341.44843pt.
- [12] [13 <../plots/loss termal l = (20x3, 50x3) (1000, 10000, 100000) (bnd, in).png>] [14]
-Overfull \hbox (4.71863pt too wide) in paragraph at lines 323--324
-[]\T2A/cmr/m/n/14.4 �������� ���-��-��� ���-��-�-��� ��-��-���: 100 ��-���-��� ���-��-��� (����-
+ [2{c:/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [3] [4] [5] [6]
+Overfull \hbox (5.64064pt too wide) in paragraph at lines 166--168
+\T2A/cmr/m/n/14.4 ������� ��-���-��-��� ���-���-��� ����-��� $[][]$ ��� ����-��� $\OML/cmm/m/it/14.4 u\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 t; x\OT1/cmr/m/n/14.4 )$\T2A/cmr/m/n/14.4 .
  []
 
-<../plots/1-dim c simpified tanh 80,20.png, id=115, 722.7pt x 361.35pt>
-File: ../plots/1-dim c simpified tanh 80,20.png Graphic file (type png)
-<use ../plots/1-dim c simpified tanh 80,20.png>
-Package pdftex.def Info: ../plots/1-dim c simpified tanh 80,20.png  used on input line 326.
-(pdftex.def)             Requested size: 455.24411pt x 227.62413pt.
-<../plots/1-dim Phi simpified tanh 80,20.png, id=116, 722.7pt x 361.35pt>
-File: ../plots/1-dim Phi simpified tanh 80,20.png Graphic file (type png)
-<use ../plots/1-dim Phi simpified tanh 80,20.png>
-Package pdftex.def Info: ../plots/1-dim Phi simpified tanh 80,20.png  used on input line 332.
-(pdftex.def)             Requested size: 455.24411pt x 227.62413pt.
-<../plots/2dim tanh 80 20.png, id=117, 422.0568pt x 328.8285pt>
-File: ../plots/2dim tanh 80 20.png Graphic file (type png)
-<use ../plots/2dim tanh 80 20.png>
-Package pdftex.def Info: ../plots/2dim tanh 80 20.png  used on input line 342.
-(pdftex.def)             Requested size: 211.02788pt x 164.41385pt.
-<../plots/3dim relu 80 20 30000000.png, id=118, 422.0568pt x 328.8285pt>
-File: ../plots/3dim relu 80 20 30000000.png Graphic file (type png)
-<use ../plots/3dim relu 80 20 30000000.png>
-Package pdftex.def Info: ../plots/3dim relu 80 20 30000000.png  used on input line 350.
-(pdftex.def)             Requested size: 211.02788pt x 164.41385pt.
-[15 <../plots/1-dim c simpified tanh 80,20.png>] [16 <../plots/1-dim Phi simpified tanh 80,20.png> <../plots/2dim tanh 80 20.png>] (./otchet.bbl
+<PINN scheme.png, id=42, 376.40625pt x 194.97844pt>
+File: PINN scheme.png Graphic file (type png)
+<use PINN scheme.png>
+Package pdftex.def Info: PINN scheme.png  used on input line 171.
+(pdftex.def)             Requested size: 376.40532pt x 194.97795pt.
+[7 <./PINN scheme.png>]
+LaTeX Font Info:    Trying to load font information for T2A+cmtt on input line 187.
+ (c:/texlive/2022/texmf-dist/tex/latex/cyrillic/t2acmtt.fd
+File: t2acmtt.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
+) [8] [9]
+<../plots/termal/loss l = (20x4) Nf=[1000, 5000, 10000] Nu=[100, 500, 1000].png, id=56, 722.7pt x 722.7pt>
+File: ../plots/termal/loss l = (20x4) Nf=[1000, 5000, 10000] Nu=[100, 500, 1000].png Graphic file (type png)
+<use ../plots/termal/loss l = (20x4) Nf=[1000, 5000, 10000] Nu=[100, 500, 1000].png>
+Package pdftex.def Info: ../plots/termal/loss l = (20x4) Nf=[1000, 5000, 10000] Nu=[100, 500, 1000].png  used on input line 267.
+(pdftex.def)             Requested size: 455.24411pt x 455.24826pt.
+ [10]
+<../plots/termal/bnd l = (20x4) Nf=[1000, 5000, 10000] Nu=100.png, id=61, 722.7pt x 361.35pt>
+File: ../plots/termal/bnd l = (20x4) Nf=[1000, 5000, 10000] Nu=100.png Graphic file (type png)
+<use ../plots/termal/bnd l = (20x4) Nf=[1000, 5000, 10000] Nu=100.png>
+Package pdftex.def Info: ../plots/termal/bnd l = (20x4) Nf=[1000, 5000, 10000] Nu=100.png  used on input line 341.
+(pdftex.def)             Requested size: 318.66948pt x 159.33633pt.
+<../plots/termal/bnd l = (20x4) Nf=[1000, 5000, 10000] Nu=500.png, id=62, 722.7pt x 361.35pt>
+File: ../plots/termal/bnd l = (20x4) Nf=[1000, 5000, 10000] Nu=500.png Graphic file (type png)
+<use ../plots/termal/bnd l = (20x4) Nf=[1000, 5000, 10000] Nu=500.png>
+Package pdftex.def Info: ../plots/termal/bnd l = (20x4) Nf=[1000, 5000, 10000] Nu=500.png  used on input line 347.
+(pdftex.def)             Requested size: 318.66948pt x 159.33633pt.
+<../plots/termal/bnd l = (20x4) Nf=[1000, 5000, 10000] Nu=1000.png, id=63, 722.7pt x 361.35pt>
+File: ../plots/termal/bnd l = (20x4) Nf=[1000, 5000, 10000] Nu=1000.png Graphic file (type png)
+<use ../plots/termal/bnd l = (20x4) Nf=[1000, 5000, 10000] Nu=1000.png>
+Package pdftex.def Info: ../plots/termal/bnd l = (20x4) Nf=[1000, 5000, 10000] Nu=1000.png  used on input line 353.
+(pdftex.def)             Requested size: 318.66948pt x 159.33633pt.
+ [11 <../plots/termal/loss l = (20x4) Nf=[1000, 5000, 10000] Nu=[100, 500, 1000].png>] [12 <../plots/termal/bnd l = (20x4) Nf=[1000, 5000, 10000] Nu=100.png> <../plots/termal/bnd l = (20x4) Nf=[1000, 5000, 10000] Nu=500.png> <../plots/termal/bnd l = (20x4) Nf=[1000, 5000, 10000] Nu=1000.png>]
+<../plots/termal/solut analit.png, id=74, 462.528pt x 346.896pt>
+File: ../plots/termal/solut analit.png Graphic file (type png)
+<use ../plots/termal/solut analit.png>
+Package pdftex.def Info: ../plots/termal/solut analit.png  used on input line 375.
+(pdftex.def)             Requested size: 227.62206pt x 170.71628pt.
+<../plots/termal/solut l = (20x4) Nf=[1000, 5000, 10000] Nu=[100, 500, 1000].png, id=75, 722.7pt x 578.16pt>
+File: ../plots/termal/solut l = (20x4) Nf=[1000, 5000, 10000] Nu=[100, 500, 1000].png Graphic file (type png)
+<use ../plots/termal/solut l = (20x4) Nf=[1000, 5000, 10000] Nu=[100, 500, 1000].png>
+Package pdftex.def Info: ../plots/termal/solut l = (20x4) Nf=[1000, 5000, 10000] Nu=[100, 500, 1000].png  used on input line 382.
+(pdftex.def)             Requested size: 455.24411pt x 364.19861pt.
+<../plots/termal/solut dif l = (20x4) Nf=[1000, 5000, 10000] Nu=[100, 500, 1000].png, id=76, 722.7pt x 578.16pt>
+File: ../plots/termal/solut dif l = (20x4) Nf=[1000, 5000, 10000] Nu=[100, 500, 1000].png Graphic file (type png)
+<use ../plots/termal/solut dif l = (20x4) Nf=[1000, 5000, 10000] Nu=[100, 500, 1000].png>
+Package pdftex.def Info: ../plots/termal/solut dif l = (20x4) Nf=[1000, 5000, 10000] Nu=[100, 500, 1000].png  used on input line 389.
+(pdftex.def)             Requested size: 455.24411pt x 364.19861pt.
+ [13
+
+ <../plots/termal/solut analit.png>] [14 <../plots/termal/solut l = (20x4) Nf=[1000, 5000, 10000] Nu=[100, 500, 1000].png>] [15 <../plots/termal/solut dif l = (20x4) Nf=[1000, 5000, 10000] Nu=[100, 500, 1000].png>] [16
+
+] (./otchet.bbl
 Underfull \hbox (badness 1038) in paragraph at lines 31--36
 \T2A/cmr/m/n/14.4 learning approach for solving heat transfer equation in advanced
  []
@@ -1035,25 +1027,25 @@ Underfull \hbox (badness 1221) in paragraph at lines 38--43
 []\T2A/cmr/m/n/14.4 Shengze Cai, Zhicheng Wang, Sifan Wang, Paris Perdikaris, and
  []
 
-[17 <../plots/3dim relu 80 20 30000000.png>]
+
 Underfull \hbox (badness 3769) in paragraph at lines 45--50
 \T2A/cmr/m/n/14.4 Franz-Josef Peitzmann, Dieter Schramm, and Ould el Moctar.
  []
 
-) [18] (./otchet.aux (./anot.aux)) ) 
+[17]) [18] (./otchet.aux) ) 
 Here is how much of TeX's memory you used:
- 31935 strings out of 475071
- 757765 string characters out of 5782907
- 1208577 words of memory out of 5000000
- 52738 multiletter control sequences out of 15000+600000
- 478919 words of font info for 51 fonts, out of 8000000 for 9000
+ 32064 strings out of 475071
+ 761425 string characters out of 5782907
+ 1209669 words of memory out of 5000000
+ 52863 multiletter control sequences out of 15000+600000
+ 480181 words of font info for 52 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 110i,17n,106p,1737b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{c:/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t2a.enc}{c:/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfti1440.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sftt1440.pfb>
-Output written on otchet.pdf (18 pages, 618661 bytes).
+ 110i,17n,106p,1896b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{c:/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t2a.enc}<c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfti1440.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sftt1440.pfb>
+Output written on otchet.pdf (18 pages, 873538 bytes).
 PDF statistics:
- 191 PDF objects out of 1000 (max. 8388607)
- 121 compressed objects within 2 object streams
+ 151 PDF objects out of 1000 (max. 8388607)
+ 91 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  78 words of extra memory for PDF output out of 10000 (max. 10000000)
 
