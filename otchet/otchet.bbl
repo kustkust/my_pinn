@@ -61,10 +61,18 @@ Gabriel~S. Gusmão, Adhika~P. Retnanto, Shashwati~C. da~Cunha, and Andrew~J.
 \newblock Kinetics-informed neural networks.
 \newblock {\em Catalysis Today}, 2022.
 
+\bibitem{bib:grazzi2020iteration}
+Riccardo Grazzi, Luca Franceschi, Massimiliano Pontil, and Saverio Salzo.
+\newblock On the iteration complexity of hypergradient computation, 2020.
+
 \bibitem{bib:BINN:1}
 John~H. Lagergren, John~T. Nardini, Ruth~E. Baker, Matthew~J. Simpson, and
   Kevin~B. Flores.
 \newblock Biologically-informed neural networks guide mechanistic modeling from
   sparse experimental data, 2020.
+
+\bibitem{bib:tutor}
+Jean-Noël Grad.
+\newblock Electrokinetics.
 
 \end{thebibliography}

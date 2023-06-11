@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.10.12)  31 MAY 2023 16:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.10.12)  11 JUN 2023 18:58
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -830,36 +830,160 @@ File: p2e-pdftex.def 2016/02/05 v0.1u Driver-dependant file (RN,HjG,JT)
 \diagbox@outsepr=\dimen326
 ) (c:/texlive/2022/texmf-dist/tex/latex/placeins/placeins.sty
 Package: placeins 2005/04/18  v 2.2
+) (c:/texlive/2022/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+) (c:/texlive/2022/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2022-09-22 v7.00t Hypertext links for LaTeX
+ (c:/texlive/2022/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+) (c:/texlive/2022/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
+ (c:/texlive/2022/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 )
-\c@figure@totc=\count324
-\c@page@totc=\count325
-\c@citnum=\count326
-\c@citnum@totc=\count327
-\c@citesnum=\count328
-\c@citesnum@totc=\count329
- (c:/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+) (c:/texlive/2022/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+) (c:/texlive/2022/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+) (c:/texlive/2022/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+) (c:/texlive/2022/texmf-dist/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+) (c:/texlive/2022/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+) (c:/texlive/2022/texmf-dist/tex/latex/auxhook/auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+) (c:/texlive/2022/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2022-05-17 v2.50 Cross-referencing by name of section
+ (c:/texlive/2022/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+) (c:/texlive/2022/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+ (c:/texlive/2022/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+))
+\c@section@level=\count324
+)
+\@linkdim=\dimen327
+\Hy@linkcounter=\count325
+\Hy@pagecounter=\count326
+ (c:/texlive/2022/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2022-09-22 v7.00t Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+) (c:/texlive/2022/texmf-dist/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+) (c:/texlive/2022/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+\Hy@SavedSpaceFactor=\count327
+ (c:/texlive/2022/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2022-09-22 v7.00t Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Option `unicode' set `true' on input line 3149.
+Package hyperref Info: Option `colorlinks' set `false' on input line 4045.
+Package hyperref Info: Hyper figures OFF on input line 4162.
+Package hyperref Info: Link nesting OFF on input line 4167.
+Package hyperref Info: Hyper index ON on input line 4170.
+Package hyperref Info: Plain pages OFF on input line 4177.
+Package hyperref Info: Backreferencing OFF on input line 4182.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4410.
+\c@Hy@tempcnt=\count328
+LaTeX Info: Redefining \url on input line 4748.
+\XeTeXLinkMargin=\dimen328
+ (c:/texlive/2022/texmf-dist/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+ (c:/texlive/2022/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
+))
+\Fld@menulength=\count329
+\Field@Width=\dimen329
+\Fld@charsize=\dimen330
+Package hyperref Info: Hyper figures OFF on input line 6027.
+Package hyperref Info: Link nesting OFF on input line 6032.
+Package hyperref Info: Hyper index ON on input line 6035.
+Package hyperref Info: backreferencing OFF on input line 6042.
+Package hyperref Info: Link coloring OFF on input line 6047.
+Package hyperref Info: Link coloring with OCG OFF on input line 6052.
+Package hyperref Info: PDF/A mode OFF on input line 6057.
+ (c:/texlive/2022/texmf-dist/tex/latex/base/atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+\Hy@abspage=\count330
+\c@Item=\count331
+\c@Hfootnote=\count332
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+ (c:/texlive/2022/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2022-09-22 v7.00t Hyperref driver for pdfTeX
+ (c:/texlive/2022/texmf-dist/tex/latex/base/atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend package
+with kernel methods
+)
+\Fld@listcount=\count333
+\c@bookmark@seq@number=\count334
+ (c:/texlive/2022/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
+ (c:/texlive/2022/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 285.
+)
+\Hy@SectionHShift=\skip63
+) (c:/texlive/2022/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\labelindent=\skip64
+\enit@outerparindent=\dimen331
+\enit@toks=\toks54
+\enit@inbox=\box76
+\enit@count@id=\count335
+\enitdp@description=\count336
+)
+\c@figure@totc=\count337
+\c@page@totc=\count338
+\c@citnum=\count339
+\c@citnum@totc=\count340
+\c@citesnum=\count341
+\c@citesnum@totc=\count342
+ (c:/texlive/2022/texmf-dist/tex/latex/chngcntr/chngcntr.sty
+Package: chngcntr 2018/04/09 v1.1a change counter resetting
+Package chngcntr Info: \counterwithout already defined.
+(chngcntr)             Quitting chngcntr on input line 21.
+) (c:/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2022-09-28 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count330
-\l__pdf_internal_box=\box76
+\l__color_backend_stack_int=\count343
+\l__pdf_internal_box=\box77
 ) (./otchet.aux)
 \openout1 = `otchet.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 88.
+LaTeX Font Info:    ... okay on input line 88.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 88.
+LaTeX Font Info:    ... okay on input line 88.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 88.
+LaTeX Font Info:    ... okay on input line 88.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 88.
+LaTeX Font Info:    ... okay on input line 88.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 88.
+LaTeX Font Info:    ... okay on input line 88.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 88.
+LaTeX Font Info:    ... okay on input line 88.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 88.
+LaTeX Font Info:    ... okay on input line 88.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 88.
+LaTeX Font Info:    ... okay on input line 88.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 88.
+LaTeX Font Info:    ... okay on input line 88.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 88.
+LaTeX Font Info:    ... okay on input line 88.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -869,11 +993,11 @@ LaTeX Font Info:    ... okay on input line 77.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(85.35826pt, 455.24411pt, 56.9055pt)
+* h-part:(L,W,R)=(85.35826pt, 469.47049pt, 42.67912pt)
 * v-part:(T,H,B)=(56.9055pt, 731.23584pt, 56.9055pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
-* \textwidth=455.24411pt
+* \textwidth=469.47049pt
 * \textheight=731.23584pt
 * \oddsidemargin=13.08827pt
 * \evensidemargin=13.08827pt
@@ -895,23 +1019,24 @@ LaTeX Font Info:    ... okay on input line 77.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Info: Redefining \th on input line 77.
+LaTeX Info: Redefining \th on input line 88.
 Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
 (c:/texlive/2022/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count331
-\scratchdimen=\dimen327
-\scratchbox=\box77
-\nofMPsegments=\count332
-\nofMParguments=\count333
-\everyMPshowfont=\toks54
-\MPscratchCnt=\count334
-\MPscratchDim=\dimen328
-\MPnumerator=\count335
-\makeMPintoPDFobject=\count336
-\everyMPtoPDFconversion=\toks55
+\scratchcounter=\count344
+\scratchdimen=\dimen332
+\scratchbox=\box78
+\nofMPsegments=\count345
+\nofMParguments=\count346
+\everyMPshowfont=\toks55
+\MPscratchCnt=\count347
+\MPscratchDim=\dimen333
+\MPnumerator=\count348
+\makeMPintoPDFobject=\count349
+\everyMPtoPDFconversion=\toks56
 ) (c:/texlive/2022/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
@@ -927,125 +1052,128 @@ Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 )
-\c@lstlisting=\count337
-<Ñ‚Ð¸Ñ‚ÑƒÐ»ÑŒÐ½Ð¸Ðº.jpg, id=5, 963.6pt x 1284.8pt>
+\c@lstlisting=\count350
+Package hyperref Info: Link coloring OFF on input line 88.
+ (./otchet.out) (./otchet.out)
+\@outlinefile=\write5
+\openout5 = `otchet.out'.
+
+<Ñ‚Ð¸Ñ‚ÑƒÐ»ÑŒÐ½Ð¸Ðº.jpg, id=88, 963.6pt x 1284.8pt>
 File: Ñ‚Ð¸Ñ‚ÑƒÐ»ÑŒÐ½Ð¸Ðº.jpg Graphic file (type jpg)
 <use Ñ‚Ð¸Ñ‚ÑƒÐ»ÑŒÐ½Ð¸Ðº.jpg>
-Package pdftex.def Info: Ñ‚Ð¸Ñ‚ÑƒÐ»ÑŒÐ½Ð¸Ðº.jpg  used on input line 92.
-(pdftex.def)             Requested size: 455.24411pt x 606.9928pt.
+Package pdftex.def Info: Ñ‚Ð¸Ñ‚ÑƒÐ»ÑŒÐ½Ð¸Ðº.jpg  used on input line 103.
+(pdftex.def)             Requested size: 469.47049pt x 625.9503pt.
 
-Overfull \hbox (21.14975pt too wide) in paragraph at lines 92--94
+Overfull \hbox (21.14975pt too wide) in paragraph at lines 103--105
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 92--94
+Underfull \hbox (badness 10000) in paragraph at lines 103--105
 
  []
 
 [1
 
- <./Ñ‚Ð¸Ñ‚ÑƒÐ»ÑŒÐ½Ð¸Ðº.jpg>] (./otchet.toc<<ot1.cmap>><<oml.cmap>><<oms.cmap>><<omx.cmap>>
-LaTeX Font Info:    Trying to load font information for U+msa on input line 4.
+ <./Ñ‚Ð¸Ñ‚ÑƒÐ»ÑŒÐ½Ð¸Ðº.jpg>] [2{c:/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./otchet.toc<<ot1.cmap>><<oml.cmap>><<oms.cmap>><<omx.cmap>>
+LaTeX Font Info:    Trying to load font information for U+msa on input line 6.
  (c:/texlive/2022/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 4.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 6.
  (c:/texlive/2022/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+wasy on input line 4.
+LaTeX Font Info:    Trying to load font information for U+wasy on input line 6.
  (c:/texlive/2022/texmf-dist/tex/latex/wasysym/uwasy.fd
 File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
 ))
-\tf@toc=\write5
-\openout5 = `otchet.toc'.
+\tf@toc=\write6
+\openout6 = `otchet.toc'.
 
- [2{c:/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [3] [4] [5] [6]
-Overfull \hbox (5.64064pt too wide) in paragraph at lines 166--168
-\T2A/cmr/m/n/14.4 òðåáóåò ñî-áëþ-äå-íèÿ ãðà-íè÷-íûõ óñëî-âèé $[][]$ äëÿ ôóíê-öèè $\OML/cmm/m/it/14.4 u\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 t; x\OT1/cmr/m/n/14.4 )$\T2A/cmr/m/n/14.4 .
- []
-
-<PINN scheme.png, id=42, 376.40625pt x 194.97844pt>
+ [3] [4] [5] [6] [7] [8] [9]
+<PINN scheme.png, id=208, 376.40625pt x 194.97844pt>
 File: PINN scheme.png Graphic file (type png)
 <use PINN scheme.png>
-Package pdftex.def Info: PINN scheme.png  used on input line 171.
+Package pdftex.def Info: PINN scheme.png  used on input line 294.
 (pdftex.def)             Requested size: 376.40532pt x 194.97795pt.
-[7 <./PINN scheme.png>]
-LaTeX Font Info:    Trying to load font information for T2A+cmtt on input line 187.
- (c:/texlive/2022/texmf-dist/tex/latex/cyrillic/t2acmtt.fd
-File: t2acmtt.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
-) [8] [9]
-<../plots/termal/loss l = (20x4) Nf=[1000, 5000, 10000] Nu=[100, 500, 1000].png, id=56, 722.7pt x 722.7pt>
+ [10 <./PINN scheme.png>] [11] [12]
+<../plots/termal/loss l = (20x4) Nf=[1000, 5000, 10000] Nu=[100, 500, 1000].png, id=240, 714.0276pt x 570.933pt>
 File: ../plots/termal/loss l = (20x4) Nf=[1000, 5000, 10000] Nu=[100, 500, 1000].png Graphic file (type png)
 <use ../plots/termal/loss l = (20x4) Nf=[1000, 5000, 10000] Nu=[100, 500, 1000].png>
-Package pdftex.def Info: ../plots/termal/loss l = (20x4) Nf=[1000, 5000, 10000] Nu=[100, 500, 1000].png  used on input line 267.
-(pdftex.def)             Requested size: 455.24411pt x 455.24826pt.
- [10]
-<../plots/termal/bnd l = (20x4) Nf=[1000, 5000, 10000] Nu=100.png, id=61, 722.7pt x 361.35pt>
+Package pdftex.def Info: ../plots/termal/loss l = (20x4) Nf=[1000, 5000, 10000] Nu=[100, 500, 1000].png  used on input line 392.
+(pdftex.def)             Requested size: 469.47049pt x 375.39693pt.
+ [13 <../plots/termal/loss l = (20x4) Nf=[1000, 5000, 10000] Nu=[100, 500, 1000].png>]
+<../plots/termal/bnd l = (20x4) Nf=[1000, 5000, 10000] Nu=100.png, id=256, 714.7503pt x 354.123pt>
 File: ../plots/termal/bnd l = (20x4) Nf=[1000, 5000, 10000] Nu=100.png Graphic file (type png)
 <use ../plots/termal/bnd l = (20x4) Nf=[1000, 5000, 10000] Nu=100.png>
-Package pdftex.def Info: ../plots/termal/bnd l = (20x4) Nf=[1000, 5000, 10000] Nu=100.png  used on input line 341.
-(pdftex.def)             Requested size: 318.66948pt x 159.33633pt.
-<../plots/termal/bnd l = (20x4) Nf=[1000, 5000, 10000] Nu=500.png, id=62, 722.7pt x 361.35pt>
+Package pdftex.def Info: ../plots/termal/bnd l = (20x4) Nf=[1000, 5000, 10000] Nu=100.png  used on input line 466.
+(pdftex.def)             Requested size: 328.6279pt x 162.82289pt.
+<../plots/termal/bnd l = (20x4) Nf=[1000, 5000, 10000] Nu=500.png, id=257, 714.7503pt x 354.123pt>
 File: ../plots/termal/bnd l = (20x4) Nf=[1000, 5000, 10000] Nu=500.png Graphic file (type png)
 <use ../plots/termal/bnd l = (20x4) Nf=[1000, 5000, 10000] Nu=500.png>
-Package pdftex.def Info: ../plots/termal/bnd l = (20x4) Nf=[1000, 5000, 10000] Nu=500.png  used on input line 347.
-(pdftex.def)             Requested size: 318.66948pt x 159.33633pt.
-<../plots/termal/bnd l = (20x4) Nf=[1000, 5000, 10000] Nu=1000.png, id=63, 722.7pt x 361.35pt>
+Package pdftex.def Info: ../plots/termal/bnd l = (20x4) Nf=[1000, 5000, 10000] Nu=500.png  used on input line 472.
+(pdftex.def)             Requested size: 328.6279pt x 162.82289pt.
+<../plots/termal/bnd l = (20x4) Nf=[1000, 5000, 10000] Nu=1000.png, id=258, 714.7503pt x 354.123pt>
 File: ../plots/termal/bnd l = (20x4) Nf=[1000, 5000, 10000] Nu=1000.png Graphic file (type png)
 <use ../plots/termal/bnd l = (20x4) Nf=[1000, 5000, 10000] Nu=1000.png>
-Package pdftex.def Info: ../plots/termal/bnd l = (20x4) Nf=[1000, 5000, 10000] Nu=1000.png  used on input line 353.
-(pdftex.def)             Requested size: 318.66948pt x 159.33633pt.
- [11 <../plots/termal/loss l = (20x4) Nf=[1000, 5000, 10000] Nu=[100, 500, 1000].png>] [12 <../plots/termal/bnd l = (20x4) Nf=[1000, 5000, 10000] Nu=100.png> <../plots/termal/bnd l = (20x4) Nf=[1000, 5000, 10000] Nu=500.png> <../plots/termal/bnd l = (20x4) Nf=[1000, 5000, 10000] Nu=1000.png>]
-<../plots/termal/solut analit.png, id=74, 462.528pt x 346.896pt>
+Package pdftex.def Info: ../plots/termal/bnd l = (20x4) Nf=[1000, 5000, 10000] Nu=1000.png  used on input line 478.
+(pdftex.def)             Requested size: 328.6279pt x 162.82289pt.
+ [14 <../plots/termal/bnd l = (20x4) Nf=[1000, 5000, 10000] Nu=100.png> <../plots/termal/bnd l = (20x4) Nf=[1000, 5000, 10000] Nu=500.png>]
+<../plots/termal/solut analit.png, id=268, 462.528pt x 346.896pt>
 File: ../plots/termal/solut analit.png Graphic file (type png)
 <use ../plots/termal/solut analit.png>
-Package pdftex.def Info: ../plots/termal/solut analit.png  used on input line 375.
-(pdftex.def)             Requested size: 227.62206pt x 170.71628pt.
-<../plots/termal/solut l = (20x4) Nf=[1000, 5000, 10000] Nu=[100, 500, 1000].png, id=75, 722.7pt x 578.16pt>
+Package pdftex.def Info: ../plots/termal/solut analit.png  used on input line 500.
+(pdftex.def)             Requested size: 234.73524pt x 176.05182pt.
+<../plots/termal/solut l = (20x4) Nf=[1000, 5000, 10000] Nu=[100, 500, 1000].png, id=269, 713.3049pt x 570.933pt>
 File: ../plots/termal/solut l = (20x4) Nf=[1000, 5000, 10000] Nu=[100, 500, 1000].png Graphic file (type png)
 <use ../plots/termal/solut l = (20x4) Nf=[1000, 5000, 10000] Nu=[100, 500, 1000].png>
-Package pdftex.def Info: ../plots/termal/solut l = (20x4) Nf=[1000, 5000, 10000] Nu=[100, 500, 1000].png  used on input line 382.
-(pdftex.def)             Requested size: 455.24411pt x 364.19861pt.
-<../plots/termal/solut dif l = (20x4) Nf=[1000, 5000, 10000] Nu=[100, 500, 1000].png, id=76, 722.7pt x 578.16pt>
+Package pdftex.def Info: ../plots/termal/solut l = (20x4) Nf=[1000, 5000, 10000] Nu=[100, 500, 1000].png  used on input line 507.
+(pdftex.def)             Requested size: 469.47049pt x 375.77153pt.
+<../plots/termal/solut dif l = (20x4) Nf=[1000, 5000, 10000] Nu=[100, 500, 1000].png, id=270, 713.3049pt x 570.933pt>
 File: ../plots/termal/solut dif l = (20x4) Nf=[1000, 5000, 10000] Nu=[100, 500, 1000].png Graphic file (type png)
 <use ../plots/termal/solut dif l = (20x4) Nf=[1000, 5000, 10000] Nu=[100, 500, 1000].png>
-Package pdftex.def Info: ../plots/termal/solut dif l = (20x4) Nf=[1000, 5000, 10000] Nu=[100, 500, 1000].png  used on input line 389.
-(pdftex.def)             Requested size: 455.24411pt x 364.19861pt.
- [13
+Package pdftex.def Info: ../plots/termal/solut dif l = (20x4) Nf=[1000, 5000, 10000] Nu=[100, 500, 1000].png  used on input line 514.
+(pdftex.def)             Requested size: 469.47049pt x 375.77153pt.
+ [15 <../plots/termal/bnd l = (20x4) Nf=[1000, 5000, 10000] Nu=1000.png> <../plots/termal/solut analit.png>] [16 <../plots/termal/solut l = (20x4) Nf=[1000, 5000, 10000] Nu=[100, 500, 1000].png>] [17 <../plots/termal/solut dif l = (20x4) Nf=[1000, 5000, 10000] Nu=[100, 500, 1000].png>] [18
 
- <../plots/termal/solut analit.png>] [14 <../plots/termal/solut l = (20x4) Nf=[1000, 5000, 10000] Nu=[100, 500, 1000].png>] [15 <../plots/termal/solut dif l = (20x4) Nf=[1000, 5000, 10000] Nu=[100, 500, 1000].png>] [16
-
-] (./otchet.bbl
-Underfull \hbox (badness 1038) in paragraph at lines 31--36
-\T2A/cmr/m/n/14.4 learning approach for solving heat transfer equation in advanced
+] [19] [20] (./otchet.bbl
+Underfull \hbox (badness 2653) in paragraph at lines 16--22
+[]\T2A/cmr/m/n/14.4 Muratahan Aykol, Chirranjeevi Balaji Gopal, Abraham Anapolsky,
  []
 
 
-Underfull \hbox (badness 1221) in paragraph at lines 38--43
-[]\T2A/cmr/m/n/14.4 Shengze Cai, Zhicheng Wang, Sifan Wang, Paris Perdikaris, and
+Underfull \hbox (badness 1043) in paragraph at lines 31--36
+\T2A/cmr/m/n/14.4 and engineering applications.  \T2A/cmr/m/it/14.4 Engineering Applications of Artificial
  []
 
 
-Underfull \hbox (badness 3769) in paragraph at lines 45--50
-\T2A/cmr/m/n/14.4 Franz-Josef Peitzmann, Dieter Schramm, and Ould el Moctar.
+Underfull \hbox (badness 1616) in paragraph at lines 38--43
+\T2A/cmr/m/n/14.4 Karniadakis.  Physics-Informed Neural Networks for Heat Transfer
  []
 
-[17]) [18] (./otchet.aux) ) 
+[21]
+Underfull \hbox (badness 1237) in paragraph at lines 69--73
+[]\T2A/cmr/m/n/14.4 John H. Lagergren, John T. Nardini, Ruth E. Baker, Matthew J.
+ []
+
+) [22] (./otchet.aux)
+Package rerunfilecheck Info: File `otchet.out' has not changed.
+(rerunfilecheck)             Checksum: 01201D9F3358896BA457967BB916A98B;4280.
+ ) 
 Here is how much of TeX's memory you used:
- 32064 strings out of 475071
- 761425 string characters out of 5782907
- 1209669 words of memory out of 5000000
- 52863 multiletter control sequences out of 15000+600000
- 480181 words of font info for 52 fonts, out of 8000000 for 9000
+ 39374 strings out of 475071
+ 875753 string characters out of 5782907
+ 1329245 words of memory out of 5000000
+ 59984 multiletter control sequences out of 15000+600000
+ 478268 words of font info for 49 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 110i,17n,106p,1896b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{c:/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t2a.enc}<c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfti1440.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sftt1440.pfb>
-Output written on otchet.pdf (18 pages, 873538 bytes).
+ 110i,17n,106p,2108b,611s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{c:/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t2a.enc}<c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfti1440.pfb>
+Output written on otchet.pdf (22 pages, 1111784 bytes).
 PDF statistics:
- 151 PDF objects out of 1000 (max. 8388607)
- 91 compressed objects within 1 object stream
- 0 named destinations out of 1000 (max. 500000)
- 78 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 392 PDF objects out of 1000 (max. 8388607)
+ 326 compressed objects within 4 object streams
+ 89 named destinations out of 1000 (max. 500000)
+ 238 words of extra memory for PDF output out of 10000 (max. 10000000)
 

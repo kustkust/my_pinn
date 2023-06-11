@@ -1,13 +1,21 @@
 \babel@toc {russian}{}\relax 
-\contentsline {section}{\numberline {1}Введение}{3}{}%
-\contentsline {section}{\numberline {2}Постановка задачи}{5}{}%
-\contentsline {subsection}{\numberline {2.1}Цель работы}{5}{}%
-\contentsline {subsection}{\numberline {2.2}Описание задачи}{5}{}%
-\contentsline {section}{\numberline {3}Теоретическое описание PINN}{6}{}%
-\contentsline {section}{\numberline {4}Техническая реализация}{8}{}%
-\contentsline {subsection}{\numberline {4.1}Используемые технологии}{8}{}%
-\contentsline {subsection}{\numberline {4.2}Общая архитектура PINN}{8}{}%
-\contentsline {section}{\numberline {5}Эксперименты}{9}{}%
-\contentsline {subsection}{\numberline {5.1}Установившееся распределение тепла в кольце}{9}{}%
-\contentsline {section}{\numberline {6}Заключение}{16}{}%
-\contentsline {section}{\numberline {7}{\cyrillictext \CYRS \cyrp \cyri \cyrs \cyro \cyrk \ \cyrl \cyri \cyrt \cyre \cyrr \cyra \cyrt \cyru \cyrr \cyrery }}{17}{}%
+\contentsline {section}{РЕФЕРАТ}{2}{section*.1}%
+\contentsline {section}{ВВЕДЕНИЕ}{4}{section*.3}%
+\contentsline {section}{ОСНОВНАЯ ЧАСТЬ}{5}{section*.4}%
+\contentsline {section}{\numberline {1}Постановка задачи}{5}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Цель работы}{5}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Описание задачи}{5}{subsection.1.2}%
+\contentsline {section}{\numberline {2}Обзор литературы}{5}{section.2}%
+\contentsline {section}{\numberline {3}Способы и методы решения задачи}{6}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Нейронные сети}{6}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Автоматическое дифференцирование}{8}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Теоретическое описание PINN}{8}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Техническая реализация}{10}{subsection.3.4}%
+\contentsline {subsubsection}{\numberline {3.4.1}Используемые технологии}{10}{subsubsection.3.4.1}%
+\contentsline {subsubsection}{\numberline {3.4.2}Програмная реализация PINN}{10}{subsubsection.3.4.2}%
+\contentsline {section}{\numberline {4}Результаты и их обсуждение}{11}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Установившееся распределение тепла в кольце}{11}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Задача электрокинетики}{18}{subsection.4.2}%
+\contentsline {section}{ЗАКЛЮЧЕНИЕ}{20}{section*.14}%
+\contentsline {section}{\nameref {sec:intro}}{21}{section*.15}%
+\contentsline {section}{}{21}{section*.16}%

@@ -2,10 +2,30 @@
 \providecommand\babel@aux[2]{}
 \@nameuse{bbl@beforestart}
 \catcode `"\active 
+\providecommand\hyper@newdestlabel[2]{}
+\providecommand\HyperFirstAtBeginDocument{\AtBeginDocument}
+\HyperFirstAtBeginDocument{\ifx\hyper@anchor\@undefined
+\global\let\oldnewlabel\newlabel
+\gdef\newlabel#1#2{\newlabelxx{#1}#2}
+\gdef\newlabelxx#1#2#3#4#5#6{\oldnewlabel{#1}{{#2}{#3}}}
+\AtEndDocument{\ifx\hyper@anchor\@undefined
+\let\newlabel\oldnewlabel
+\fi}
+\fi}
+\global\let\hyper@last\relax 
+\gdef\HyperFirstAtBeginDocument#1{#1}
+\providecommand\HyField@AuxAddToFields[1]{}
+\providecommand\HyField@AuxAddToCoFields[2]{}
 \babel@aux{russian}{}
+\@writefile{toc}{\contentsline {section}{РЕФЕРАТ}{2}{section*.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{ВВЕДЕНИЕ}{4}{section*.3}\protected@file@percent }
 \citation{bib:pinn:first}
 \citation{bib:voltogr:1}
-\@writefile{toc}{\contentsline {section}{\numberline {1}Введение}{3}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{ОСНОВНАЯ ЧАСТЬ}{5}{section*.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {1}Постановка задачи}{5}{section.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.1}Цель работы}{5}{subsection.1.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.2}Описание задачи}{5}{subsection.1.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {2}Обзор литературы}{5}{section.2}\protected@file@percent }
 \citation{bib:lbat:1}
 \citation{bib:lbat:2}
 \citation{bib:heat:1}
@@ -13,39 +33,47 @@
 \citation{bib:navstock:1}
 \citation{bib:chemkin:1}
 \citation{bib:chemkin:2}
+\citation{bib:grazzi2020iteration}
 \citation{bib:BINN:1}
-\@writefile{toc}{\contentsline {section}{\numberline {2}Постановка задачи}{5}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.1}Цель работы}{5}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.2}Описание задачи}{5}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {3}Теоретическое описание PINN}{6}{}\protected@file@percent }
-\newlabel{eq:1syst}{{1}{6}}
-\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Принципиальная схема работы PINN\relax }}{7}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {3}Способы и методы решения задачи}{6}{section.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Нейронные сети}{6}{subsection.3.1}\protected@file@percent }
+\newlabel{sect:nn}{{3.1}{6}{Нейронные сети}{subsection.3.1}{}}
+\newlabel{eq:gen_loss}{{1}{6}{Нейронные сети}{equation.3.1}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Автоматическое дифференцирование}{8}{subsection.3.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}Теоретическое описание PINN}{8}{subsection.3.3}\protected@file@percent }
+\newlabel{eq:1syst}{{7}{8}{Теоретическое описание PINN}{equation.3.7}{}}
+\newlabel{eq:1bnd}{{8}{9}{Теоретическое описание PINN}{equation.3.8}{}}
+\newlabel{eq:loss}{{11}{9}{Теоретическое описание PINN}{equation.3.11}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.1}{\ignorespaces Принципиальная схема работы PINN\relax }}{10}{figure.caption.5}\protected@file@percent }
 \providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
-\newlabel{fig:pinn_scheme}{{1}{7}}
-\@writefile{toc}{\contentsline {section}{\numberline {4}Техническая реализация}{8}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Используемые технологии}{8}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Общая архитектура PINN}{8}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {5}Эксперименты}{9}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.1}Установившееся распределение тепла в кольце}{9}{}\protected@file@percent }
-\newlabel{eq:termal}{{10}{9}}
-\newlabel{eq:termal_cond}{{11}{10}}
-\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Графики функций потерь для различных сочетаний $N_f$ и $N_u$, крестиками изображаются результаты валидации в определённые моменты времени\relax }}{11}{}\protected@file@percent }
-\newlabel{fig:termal_loss}{{2}{11}}
-\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces Время обучения в секундах для различных сочетаний $N_f$ и $N_u$\relax }}{12}{}\protected@file@percent }
-\newlabel{table:termal_time}{{1}{12}}
-\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Граничные условия для случая $N_u=100$\relax }}{12}{}\protected@file@percent }
-\newlabel{fig:termal_bnd1}{{3}{12}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Граничные условия для случая $N_u=500$\relax }}{12}{}\protected@file@percent }
-\newlabel{fig:termal_bnd2}{{4}{12}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Граничные условия для случая $N_u=1000$\relax }}{12}{}\protected@file@percent }
-\newlabel{fig:termal_bnd3}{{5}{12}}
-\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Аналитическое решение\relax }}{13}{}\protected@file@percent }
-\newlabel{fig:termal_analit}{{6}{13}}
-\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces Решение при различных $N_f$ и $N_u$\relax }}{14}{}\protected@file@percent }
-\newlabel{fig:termal_pred}{{7}{14}}
-\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces разница между аналитическим решением и решением нейросети при различных $N_f$ и $N_u$\relax }}{15}{}\protected@file@percent }
-\newlabel{fig:termal_dif}{{8}{15}}
-\@writefile{toc}{\contentsline {section}{\numberline {6}Заключение}{16}{}\protected@file@percent }
+\newlabel{fig:pinn_scheme}{{3.1}{10}{Принципиальная схема работы PINN\relax }{figure.caption.5}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.4}Техническая реализация}{10}{subsection.3.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.4.1}Используемые технологии}{10}{subsubsection.3.4.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.4.2}Програмная реализация PINN}{10}{subsubsection.3.4.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {4}Результаты и их обсуждение}{11}{section.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Установившееся распределение тепла в кольце}{11}{subsection.4.1}\protected@file@percent }
+\newlabel{eq:termal}{{15}{12}{Установившееся распределение тепла в кольце}{equation.4.15}{}}
+\newlabel{eq:termal_cond}{{16}{12}{Установившееся распределение тепла в кольце}{equation.4.16}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.1}{\ignorespaces Графики функций потерь для различных сочетаний $N_f$ и $N_b$, крестиками изображаются результаты валидации в определённые моменты времени\relax }}{13}{figure.caption.6}\protected@file@percent }
+\newlabel{fig:termal_loss}{{4.1}{13}{Графики функций потерь для различных сочетаний $N_f$ и $N_b$, крестиками изображаются результаты валидации в определённые моменты времени\relax }{figure.caption.6}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {4.1}{\ignorespaces Время обучения в секундах для различных сочетаний $N_f$ и $N_b$\relax }}{14}{table.caption.7}\protected@file@percent }
+\newlabel{table:termal_time}{{4.1}{14}{Время обучения в секундах для различных сочетаний $N_f$ и $N_b$\relax }{table.caption.7}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.2}{\ignorespaces Граничные условия для случая $N_b=100$\relax }}{14}{figure.caption.8}\protected@file@percent }
+\newlabel{fig:termal_bnd1}{{4.2}{14}{Граничные условия для случая $N_b=100$\relax }{figure.caption.8}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.3}{\ignorespaces Граничные условия для случая $N_b=500$\relax }}{14}{figure.caption.9}\protected@file@percent }
+\newlabel{fig:termal_bnd2}{{4.3}{14}{Граничные условия для случая $N_b=500$\relax }{figure.caption.9}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.4}{\ignorespaces Граничные условия для случая $N_b=1000$\relax }}{15}{figure.caption.10}\protected@file@percent }
+\newlabel{fig:termal_bnd3}{{4.4}{15}{Граничные условия для случая $N_b=1000$\relax }{figure.caption.10}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.5}{\ignorespaces Аналитическое решение\relax }}{15}{figure.caption.11}\protected@file@percent }
+\newlabel{fig:termal_analit}{{4.5}{15}{Аналитическое решение\relax }{figure.caption.11}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.6}{\ignorespaces Решение при различных $N_f$ и $N_b$\relax }}{16}{figure.caption.12}\protected@file@percent }
+\newlabel{fig:termal_pred}{{4.6}{16}{Решение при различных $N_f$ и $N_b$\relax }{figure.caption.12}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.7}{\ignorespaces разница между аналитическим решением и решением нейросети при различных $N_f$ и $N_b$\relax }}{17}{figure.caption.13}\protected@file@percent }
+\newlabel{fig:termal_dif}{{4.7}{17}{разница между аналитическим решением и решением нейросети при различных $N_f$ и $N_b$\relax }{figure.caption.13}{}}
+\citation{bib:tutor}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Задача электрокинетики}{18}{subsection.4.2}\protected@file@percent }
+\newlabel{eq:ek_eq}{{18}{18}{Задача электрокинетики}{equation.4.18}{}}
+\@writefile{toc}{\contentsline {section}{ЗАКЛЮЧЕНИЕ}{20}{section*.14}\protected@file@percent }
 \bibstyle{unsrt}
 \bibdata{otchet}
 \bibcite{bib:pinn:first}{1}
@@ -56,11 +84,15 @@
 \bibcite{bib:heat:2}{6}
 \bibcite{bib:navstock:1}{7}
 \bibcite{bib:chemkin:1}{8}
-\@writefile{toc}{\contentsline {section}{\numberline {7}{\cyrillictext  \CYRS \cyrp \cyri \cyrs \cyro \cyrk \ \cyrl \cyri \cyrt \cyre \cyrr \cyra \cyrt \cyru \cyrr \cyrery }}{17}{}\protected@file@percent }
+\newlabel{sec:intro}{{4.2}{21}{СПИСОК ИСПОЛЬЗОВАННЫХ ИСТОЧНИКОВ И ЛИТЕРАТУРЫ}{section*.15}{}}
+\@writefile{toc}{\contentsline {section}{\nameref {sec:intro}}{21}{section*.15}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{}{21}{section*.16}\protected@file@percent }
 \bibcite{bib:chemkin:2}{9}
-\bibcite{bib:BINN:1}{10}
-\expandafter\ifx\csname c@figure@totc\endcsname\relax\newcounter{figure@totc}\fi\setcounter{figure@totc}{8}
-\expandafter\ifx\csname c@page@totc\endcsname\relax\newcounter{page@totc}\fi\setcounter{page@totc}{18}
-\expandafter\ifx\csname c@citnum@totc\endcsname\relax\newcounter{citnum@totc}\fi\setcounter{citnum@totc}{10}
-\expandafter\ifx\csname c@citesnum@totc\endcsname\relax\newcounter{citesnum@totc}\fi\setcounter{citesnum@totc}{7}
-\gdef \@abspage@last{18}
+\bibcite{bib:grazzi2020iteration}{10}
+\bibcite{bib:BINN:1}{11}
+\bibcite{bib:tutor}{12}
+\expandafter\ifx\csname c@figure@totc\endcsname\relax\newcounter{figure@totc}\fi\setcounter{figure@totc}{7}
+\expandafter\ifx\csname c@page@totc\endcsname\relax\newcounter{page@totc}\fi\setcounter{page@totc}{22}
+\expandafter\ifx\csname c@citnum@totc\endcsname\relax\newcounter{citnum@totc}\fi\setcounter{citnum@totc}{12}
+\expandafter\ifx\csname c@citesnum@totc\endcsname\relax\newcounter{citesnum@totc}\fi\setcounter{citesnum@totc}{9}
+\gdef \@abspage@last{22}
