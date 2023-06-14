@@ -1,0 +1,81 @@
+\begin{thebibliography}{10}
+
+\bibitem{bib:pinn:first}
+Maziar Raissi, Paris Perdikaris, and George~Em Karniadakis.
+\newblock Physics informed deep learning (part i): Data-driven solutions of
+  nonlinear partial differential equations, 2017.
+
+\bibitem{bib:voltogr:1}
+Haotian Chen, Enno Kätelhön, and Richard~G. Compton.
+\newblock Predicting voltammetry using physics-informed neural networks.
+\newblock {\em The Journal of Physical Chemistry Letters}, 13(2):536--543,
+  2022.
+\newblock PMID: 35007069.
+
+\bibitem{bib:lbat:1}
+Muratahan Aykol, Chirranjeevi~Balaji Gopal, Abraham Anapolsky, Patrick~K.
+  Herring, Bruis van Vlijmen, Marc~D. Berliner, Martin~Z. Bazant, Richard~D.
+  Braatz, William~C. Chueh, and Brian~D. Storey.
+\newblock Perspective-combining physics and machine learning to predict battery
+  lifetime.
+\newblock {\em Journal of the Electrochemical Society}, 168(3), 2021.
+
+\bibitem{bib:lbat:2}
+Renato~G. Nascimento, Matteo Corbetta, Chetan~S. Kulkarni, and Felipe A.~C.
+  Viana.
+\newblock Hybrid physics-informed neural networks for lithium-ion battery
+  modeling and prognosis.
+\newblock {\em Journal of Power Sources}, 1(513), 2021.
+
+\bibitem{bib:heat:1}
+Navid Zobeiry and Keith~D. Humfeld.
+\newblock A physics-informed machine learning approach for solving heat
+  transfer equation in advanced manufacturing and engineering applications.
+\newblock {\em Engineering Applications of Artificial Intelligence},
+  101:104232, 2021.
+
+\bibitem{bib:heat:2}
+Shengze Cai, Zhicheng Wang, Sifan Wang, Paris Perdikaris, and George~Em
+  Karniadakis.
+\newblock {Physics-Informed Neural Networks for Heat Transfer Problems}.
+\newblock {\em Journal of Heat Transfer}, 143(6), 04 2021.
+\newblock 060801.
+
+\bibitem{bib:navstock:1}
+Fabian Pioch, Jan~Hauke Harmening, Andreas~Maximilian Müller, Franz-Josef
+  Peitzmann, Dieter Schramm, and Ould el~Moctar.
+\newblock Turbulence modeling for physics-informed neural networks: Comparison
+  of different rans models for the backward-facing step flow.
+\newblock {\em Fluids}, 8(2), 2023.
+
+\bibitem{bib:chemkin:1}
+Weiqi Ji, Weilun Qiu, Zhiyu Shi, Shaowu Pan, and Sili Deng.
+\newblock Stiff-pinn: Physics-informed neural network for stiff chemical
+  kinetics.
+\newblock {\em The Journal of Physical Chemistry A}, 125(36):8098--8106, 2021.
+\newblock PMID: 34463510.
+
+\bibitem{bib:chemkin:2}
+Gabriel~S. Gusmão, Adhika~P. Retnanto, Shashwati~C. da~Cunha, and Andrew~J.
+  Medford.
+\newblock Kinetics-informed neural networks.
+\newblock {\em Catalysis Today}, 2022.
+
+\bibitem{bib:grazzi2020iteration}
+Riccardo Grazzi, Luca Franceschi, Massimiliano Pontil, and Saverio Salzo.
+\newblock On the iteration complexity of hypergradient computation, 2020.
+
+\bibitem{bib:BINN:1}
+John~H. Lagergren, John~T. Nardini, Ruth~E. Baker, Matthew~J. Simpson, and
+  Kevin~B. Flores.
+\newblock Biologically-informed neural networks guide mechanistic modeling from
+  sparse experimental data, 2020.
+
+\bibitem{bib:tutor}
+Jean-Noël Grad.
+\newblock Electrokinetics.
+\newblock
+  \url{https://github.com/espressomd/espresso/blob/python/doc/tutorials/electrokinetics/electrokinetics.ipynb}.
+\newblock (дата обращения: 14.05.2023).
+
+\end{thebibliography}

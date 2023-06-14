@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.10.12)  14 JUN 2023 09:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.10.12)  14 JUN 2023 17:17
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**c:/Users/kust/Diplom/my_pinn/otchet/Доклад.tex
-(c:/Users/kust/Diplom/my_pinn/otchet/Доклад.tex
+**c:/Users/kust/Diplom/my_pinn/otchet/otchet.tex
+(c:/Users/kust/Diplom/my_pinn/otchet/otchet.tex
 LaTeX2e <2022-06-01> patch level 5
 L3 programming layer <2022-09-28> (c:/texlive/2022/texmf-dist/tex/latex/extsizes/extarticle.cls
 Document Class: extarticle 1996/10/08 v1.0 Non Standard LaTeX document class
@@ -766,9 +766,9 @@ Package tocbasic Info: setting babel extension for `nls' on input line 188.
 \nomitemsep=\skip62
 )
 \@nomenclaturefile=\write4
-\openout4 = `Доклад.nlo'.
+\openout4 = `otchet.nlo'.
 
-Package nomencl Info: Writing nomenclature file Доклад.nlo on input line 23.
+Package nomencl Info: Writing nomenclature file otchet.nlo on input line 23.
  (c:/texlive/2022/texmf-dist/tex/latex/totcount/totcount.sty
 Package: totcount 2011/01/25 v1.2 package for gettingthe total value of LaTeX counters
 ) (c:/texlive/2022/texmf-dist/tex/latex/caption/subcaption.sty
@@ -973,8 +973,8 @@ Package chngcntr Info: \counterwithout already defined.
 File: l3backend-pdftex.def 2022-09-28 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count344
 \l__pdf_internal_box=\box81
-) (./Доклад.aux)
-\openout1 = `Доклад.aux'.
+) (./otchet.aux)
+\openout1 = `otchet.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 96.
 LaTeX Font Info:    ... okay on input line 96.
@@ -1067,41 +1067,192 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 )
 \c@lstlisting=\count351
 Package hyperref Info: Link coloring OFF on input line 96.
- (./Доклад.out) (./Доклад.out)
+ (./otchet.out) (./otchet.out)
 \@outlinefile=\write5
-\openout5 = `Доклад.out'.
+\openout5 = `otchet.out'.
 
-<<ot1.cmap>><<oml.cmap>><<oms.cmap>><<omx.cmap>>
-LaTeX Font Info:    Trying to load font information for U+msa on input line 124.
+
+
+pdfTeX warning: pdflatex.exe (file ./Титульник ВКР.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Титульник ВКР.pdf, id=88, 597.23125pt x 845.1575pt>
+File: Титульник ВКР.pdf Graphic file (type pdf)
+<use Титульник ВКР.pdf>
+Package pdftex.def Info: Титульник ВКР.pdf  used on input line 109.
+(pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
+
+
+pdfTeX warning: pdflatex.exe (file ./Титульник ВКР.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+File: Титульник ВКР.pdf Graphic file (type pdf)
+<use Титульник ВКР.pdf>
+Package pdftex.def Info: Титульник ВКР.pdf  used on input line 109.
+(pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
+
+
+pdfTeX warning: pdflatex.exe (file ./Титульник ВКР.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+
+
+pdfTeX warning: pdflatex.exe (file ./Титульник ВКР.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Титульник ВКР.pdf, id=91, page=1, 597.23125pt x 845.1575pt>
+File: Титульник ВКР.pdf Graphic file (type pdf)
+<use Титульник ВКР.pdf, page 1>
+Package pdftex.def Info: Титульник ВКР.pdf , page1 used on input line 109.
+(pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
+File: Титульник ВКР.pdf Graphic file (type pdf)
+<use Титульник ВКР.pdf, page 1>
+Package pdftex.def Info: Титульник ВКР.pdf , page1 used on input line 109.
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+File: Титульник ВКР.pdf Graphic file (type pdf)
+<use Титульник ВКР.pdf, page 1>
+Package pdftex.def Info: Титульник ВКР.pdf , page1 used on input line 109.
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+File: Титульник ВКР.pdf Graphic file (type pdf)
+<use Титульник ВКР.pdf, page 1>
+Package pdftex.def Info: Титульник ВКР.pdf , page1 used on input line 109.
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+File: Титульник ВКР.pdf Graphic file (type pdf)
+<use Титульник ВКР.pdf, page 1>
+Package pdftex.def Info: Титульник ВКР.pdf , page1 used on input line 109.
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+[1
+
+ <./Титульник ВКР.pdf>] [2{c:/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./otchet.toc<<ot1.cmap>><<oml.cmap>><<oms.cmap>><<omx.cmap>>
+LaTeX Font Info:    Trying to load font information for U+msa on input line 6.
  (c:/texlive/2022/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 124.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 6.
  (c:/texlive/2022/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+wasy on input line 124.
+LaTeX Font Info:    Trying to load font information for U+wasy on input line 6.
  (c:/texlive/2022/texmf-dist/tex/latex/wasysym/uwasy.fd
 File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
-) [1
+))
+\tf@toc=\write6
+\openout6 = `otchet.toc'.
 
-{c:/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] [3] [4] [5] (./Доклад.aux)
-Package rerunfilecheck Info: File `Доклад.out' has not changed.
-(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+ [3] [4] [5] [6] [7] [8] [9]
+Overfull \hbox (3.4396pt too wide) in paragraph at lines 323--324
+\T2A/cmr/m/n/14.4 tensorflow.keras.Model, ���-�� ����-��� tensorflow.keras.layers.Dense. ��� ����-
+ []
+
+[10] [11]
+<../plots/termal/loss l = (20x4) Nf=[1000, 5000, 10000] Nu=[100, 500, 1000].png, id=236, 714.0276pt x 570.933pt>
+File: ../plots/termal/loss l = (20x4) Nf=[1000, 5000, 10000] Nu=[100, 500, 1000].png Graphic file (type png)
+<use ../plots/termal/loss l = (20x4) Nf=[1000, 5000, 10000] Nu=[100, 500, 1000].png>
+Package pdftex.def Info: ../plots/termal/loss l = (20x4) Nf=[1000, 5000, 10000] Nu=[100, 500, 1000].png  used on input line 407.
+(pdftex.def)             Requested size: 469.47049pt x 375.39693pt.
+ [12] [13 <../plots/termal/loss l = (20x4) Nf=[1000, 5000, 10000] Nu=[100, 500, 1000].png>]
+<../plots/termal/bnd l = (20x4) Nf=[1000, 5000, 10000] Nu=100.png, id=258, 714.7503pt x 354.123pt>
+File: ../plots/termal/bnd l = (20x4) Nf=[1000, 5000, 10000] Nu=100.png Graphic file (type png)
+<use ../plots/termal/bnd l = (20x4) Nf=[1000, 5000, 10000] Nu=100.png>
+Package pdftex.def Info: ../plots/termal/bnd l = (20x4) Nf=[1000, 5000, 10000] Nu=100.png  used on input line 481.
+(pdftex.def)             Requested size: 328.6279pt x 162.82289pt.
+<../plots/termal/bnd l = (20x4) Nf=[1000, 5000, 10000] Nu=500.png, id=259, 714.7503pt x 354.123pt>
+File: ../plots/termal/bnd l = (20x4) Nf=[1000, 5000, 10000] Nu=500.png Graphic file (type png)
+<use ../plots/termal/bnd l = (20x4) Nf=[1000, 5000, 10000] Nu=500.png>
+Package pdftex.def Info: ../plots/termal/bnd l = (20x4) Nf=[1000, 5000, 10000] Nu=500.png  used on input line 487.
+(pdftex.def)             Requested size: 328.6279pt x 162.82289pt.
+<../plots/termal/bnd l = (20x4) Nf=[1000, 5000, 10000] Nu=1000.png, id=260, 714.7503pt x 354.123pt>
+File: ../plots/termal/bnd l = (20x4) Nf=[1000, 5000, 10000] Nu=1000.png Graphic file (type png)
+<use ../plots/termal/bnd l = (20x4) Nf=[1000, 5000, 10000] Nu=1000.png>
+Package pdftex.def Info: ../plots/termal/bnd l = (20x4) Nf=[1000, 5000, 10000] Nu=1000.png  used on input line 493.
+(pdftex.def)             Requested size: 328.6279pt x 162.82289pt.
+ [14 <../plots/termal/bnd l = (20x4) Nf=[1000, 5000, 10000] Nu=100.png> <../plots/termal/bnd l = (20x4) Nf=[1000, 5000, 10000] Nu=500.png>]
+<../plots/termal/solut analit.png, id=270, 420.6114pt x 339.669pt>
+File: ../plots/termal/solut analit.png Graphic file (type png)
+<use ../plots/termal/solut analit.png>
+Package pdftex.def Info: ../plots/termal/solut analit.png  used on input line 514.
+(pdftex.def)             Requested size: 234.73524pt x 189.56029pt.
+<../plots/termal/solut l = (20x4) Nf=[1000, 5000, 10000] Nu=[100, 500, 1000].png, id=271, 713.3049pt x 570.933pt>
+File: ../plots/termal/solut l = (20x4) Nf=[1000, 5000, 10000] Nu=[100, 500, 1000].png Graphic file (type png)
+<use ../plots/termal/solut l = (20x4) Nf=[1000, 5000, 10000] Nu=[100, 500, 1000].png>
+Package pdftex.def Info: ../plots/termal/solut l = (20x4) Nf=[1000, 5000, 10000] Nu=[100, 500, 1000].png  used on input line 521.
+(pdftex.def)             Requested size: 469.47049pt x 375.77153pt.
+<../plots/termal/solut dif l = (20x4) Nf=[1000, 5000, 10000] Nu=[100, 500, 1000].png, id=272, 713.3049pt x 570.933pt>
+File: ../plots/termal/solut dif l = (20x4) Nf=[1000, 5000, 10000] Nu=[100, 500, 1000].png Graphic file (type png)
+<use ../plots/termal/solut dif l = (20x4) Nf=[1000, 5000, 10000] Nu=[100, 500, 1000].png>
+Package pdftex.def Info: ../plots/termal/solut dif l = (20x4) Nf=[1000, 5000, 10000] Nu=[100, 500, 1000].png  used on input line 528.
+(pdftex.def)             Requested size: 469.47049pt x 375.77153pt.
+ [15 <../plots/termal/bnd l = (20x4) Nf=[1000, 5000, 10000] Nu=1000.png> <../plots/termal/solut analit.png>] [16 <../plots/termal/solut l = (20x4) Nf=[1000, 5000, 10000] Nu=[100, 500, 1000].png>] [17 <../plots/termal/solut dif l = (20x4) Nf=[1000, 5000, 10000] Nu=[100, 500, 1000].png>] [18
+
+] [19]
+<../plots/ek/2-dim loss 20x4.png, id=319, 455.301pt x 339.669pt>
+File: ../plots/ek/2-dim loss 20x4.png Graphic file (type png)
+<use ../plots/ek/2-dim loss 20x4.png>
+Package pdftex.def Info: ../plots/ek/2-dim loss 20x4.png  used on input line 625.
+(pdftex.def)             Requested size: 230.0431pt x 171.617pt.
+<../plots/ek/2-dim loss trim20x4.png, id=320, 455.301pt x 339.669pt>
+File: ../plots/ek/2-dim loss trim20x4.png Graphic file (type png)
+<use ../plots/ek/2-dim loss trim20x4.png>
+Package pdftex.def Info: ../plots/ek/2-dim loss trim20x4.png  used on input line 632.
+(pdftex.def)             Requested size: 230.0431pt x 171.617pt.
+<../plots/ek/2-dim tanh 20x4.png, id=325, 422.0568pt x 328.8285pt>
+File: ../plots/ek/2-dim tanh 20x4.png Graphic file (type png)
+<use ../plots/ek/2-dim tanh 20x4.png>
+Package pdftex.def Info: ../plots/ek/2-dim tanh 20x4.png  used on input line 643.
+(pdftex.def)             Requested size: 211.02788pt x 164.41385pt.
+ [20 <../plots/ek/2-dim loss 20x4.png> <../plots/ek/2-dim loss trim20x4.png>]
+<../plots/ek/3-dim loss 20x4.png, id=339, 455.301pt x 339.669pt>
+File: ../plots/ek/3-dim loss 20x4.png Graphic file (type png)
+<use ../plots/ek/3-dim loss 20x4.png>
+Package pdftex.def Info: ../plots/ek/3-dim loss 20x4.png  used on input line 653.
+(pdftex.def)             Requested size: 230.0431pt x 171.617pt.
+<../plots/ek/3-dim loss trim20x4.png, id=340, 455.301pt x 339.669pt>
+File: ../plots/ek/3-dim loss trim20x4.png Graphic file (type png)
+<use ../plots/ek/3-dim loss trim20x4.png>
+Package pdftex.def Info: ../plots/ek/3-dim loss trim20x4.png  used on input line 660.
+(pdftex.def)             Requested size: 230.0431pt x 171.617pt.
+<../plots/ek/3-dim tanh 20x4.png, id=343, 422.0568pt x 328.8285pt>
+File: ../plots/ek/3-dim tanh 20x4.png Graphic file (type png)
+<use ../plots/ek/3-dim tanh 20x4.png>
+Package pdftex.def Info: ../plots/ek/3-dim tanh 20x4.png  used on input line 670.
+(pdftex.def)             Requested size: 211.02788pt x 164.41385pt.
+ [21 <../plots/ek/2-dim tanh 20x4.png> <../plots/ek/3-dim loss 20x4.png> <../plots/ek/3-dim loss trim20x4.png>] [22 <../plots/ek/3-dim tanh 20x4.png>] [23] (./otchet.bbl
+Underfull \hbox (badness 2653) in paragraph at lines 16--22
+[]\T2A/cmr/m/n/14.4 Muratahan Aykol, Chirranjeevi Balaji Gopal, Abraham Anapolsky,
+ []
+
+
+Underfull \hbox (badness 1043) in paragraph at lines 31--36
+\T2A/cmr/m/n/14.4 and engineering applications.  \T2A/cmr/m/it/14.4 Engineering Applications of Artificial
+ []
+
+
+Underfull \hbox (badness 1616) in paragraph at lines 38--43
+\T2A/cmr/m/n/14.4 Karniadakis.  Physics-Informed Neural Networks for Heat Transfer
+ []
+
+[24]
+Underfull \hbox (badness 1237) in paragraph at lines 69--73
+[]\T2A/cmr/m/n/14.4 John H. Lagergren, John T. Nardini, Ruth E. Baker, Matthew J.
+ []
+
+LaTeX Font Info:    Trying to load font information for T2A+cmtt on input line 78.
+(c:/texlive/2022/texmf-dist/tex/latex/cyrillic/t2acmtt.fd
+File: t2acmtt.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
+)
+Underfull \hbox (badness 10000) in paragraph at lines 75--80
+\T2A/cmtt/m/n/14.4 espresso / blob / python / doc / tutorials / electrokinetics /
+ []
+
+) [25] (./otchet.aux)
+Package rerunfilecheck Info: File `otchet.out' has not changed.
+(rerunfilecheck)             Checksum: 22C3F619D26A2E644079D5F2116F7F2C;4280.
  ) 
 Here is how much of TeX's memory you used:
- 39236 strings out of 475071
- 871746 string characters out of 5782907
- 1325109 words of memory out of 5000000
- 59948 multiletter control sequences out of 15000+600000
- 474481 words of font info for 45 fonts, out of 8000000 for 9000
+ 39569 strings out of 475071
+ 880464 string characters out of 5782907
+ 1331348 words of memory out of 5000000
+ 60149 multiletter control sequences out of 15000+600000
+ 479380 words of font info for 51 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 110i,17n,106p,1274b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{c:/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{c:/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t2a.enc}<c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb>
-Output written on Доклад.pdf (5 pages, 148573 bytes).
+ 110i,18n,106p,1968b,638s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{c:/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t2a.enc}<c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfti1440.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sftt1440.pfb>
+Output written on otchet.pdf (25 pages, 1318468 bytes).
 PDF statistics:
- 87 PDF objects out of 1000 (max. 8388607)
- 61 compressed objects within 1 object stream
- 6 named destinations out of 1000 (max. 500000)
- 33 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 457 PDF objects out of 1000 (max. 8388607)
+ 372 compressed objects within 4 object streams
+ 98 named destinations out of 1000 (max. 500000)
+ 278 words of extra memory for PDF output out of 10000 (max. 10000000)
 
